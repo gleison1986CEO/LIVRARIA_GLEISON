@@ -1,0 +1,155 @@
+﻿@{
+     ViewData["Title"] = "DARK GAME";
+     Layout = "~/Views/Shared/_Web.cshtml";
+}
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img id="LOGOWEBSITE"src="~/images/logo/dark.png" alt="DARK GAMES"></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                         @if (this.User.IsInRole("Revenda") || this.User.IsInRole("Administrador") || this.User.IsInRole("Parceiro")){
+                             <li class="nav__item"><a href="/Home/Grafico" class="nav__link">Perfil</a></li>
+                             <li class="nav__item" id="BUTTONNAV"><a href="/Account/Logout" class="nav__link">Sair</a></li>
+                         }else{
+                              <li class="nav__item" id="BUTTONNAV"><a href="/Account/Login" class="nav__link">Login</a></li>
+                         }
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <div id="LINHA">
+            BAIXE NOSSO APP EM SUA TV
+        </div>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="inicio">
+
+               
+               <div class="w3-content w3-display-container" id="BANNEROPACITY">
+
+                    @foreach( var item in ViewBag.BANNER){
+
+                        <div class="w3-display-container mySlides">
+                            <img src="~/images/banner/@item.foto@ViewBag.EXT" style="width:100%">
+
+                            <div id="DESCRIPTIONS">
+                                <center>
+                                    <p><span id="TITULO">@item.titulo</span></p>
+                                    <p><span id="DESCRICAO">@item.descricao</span></p>
+                                    <p><span id="CATEGORIA">Categoria: @item.categoria</span></p>
+                                </center>
+                            </div>
+
+                        </div>
+                        
+
+                    
+    
+                    }
+
+                        <center>
+                            <div id="BUTTONPASS">
+                            <button class="w3-button w3-black w3-display-left"  id="BUTTONPASSLEFT" onclick="plusDivs(-1)">Anterior&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" id="BUTTONPASSRIGHT" onclick="plusDivs(1)">&#10095;Próximo</button>
+                            </div>
+                        </center>
+                        
+                </div>
+
+
+            </section>
+
+            <!--===== SOBRE O SISTEMA =====-->
+            <section class="about section " id="sobre">
+                @foreach( var item in ViewBag.SOBRE){
+                            <div id="DESCRIPTIONSGENERALINICIO">
+                                <h2 class="about__subtitle">@item.titulo</h2>
+                                <p class="about__text">@item.descricao</p>  
+                            </div>         
+               
+                }
+            </section>
+
+            <!--===== JOGOS =====-->
+            <section class="skills section" id="canal">
+              
+                        <div id="DESCRIPTIONSGENERAL">
+                        <h2 class="skills__subtitle">Mídias e Jogos Digitais</h2>
+                        <p class="skills__text">Lista de Jogos para Xbox, Nintendo, Playstation, Steam</p>
+                        
+                       
+                        
+                    </div>
+                    
+                    </div>
+               
+            </section>
+
+           <!--===== CONSOLE =====-->
+            <section class="skills section" id="filme">
+              
+                        <div id="DESCRIPTIONSGENERAL">
+                        <h2 class="skills__subtitle" id="TITULOFILMES">Lista de Consoles</h2>
+                      
+                        
+                    </div>
+                    
+                    </div>
+               
+            </section>
+
+           <!--===== RETRO =====-->
+            <section class="skills section" id="serie">
+              
+                        <div id="DESCRIPTIONSGENERAL">
+                        <h2 class="skills__subtitle"  id="TITULOFILMES">Lista de Jogos Antigos</h2>      
+                        
+                        
+                    </div>
+                    
+                    </div>
+               
+            </section>
+            <!--===== SISTEMA RETRO =====-->
+            <section class="contact section" id="mensalidade">
+                <h2 class="skills__subtitle"  id="TITULOMENSALIDADE">Sistema de Jogos Retrô</h2> 
+              
+            </section>
+            <!--===== FOOTER =====-->
+             <section class="contact section" id="FOOTERINFO">
+                    <footer class="footer">
+                        <center>
+                            <div>
+                               <img id="LOGOWEBSITEFOOTER"src="~/images/logo/dark.png" alt="DARKGAMES">
+                            </div>
+                        <center>
+
+                        <p class="footer__title">DARKGAMES 2025 LTDA.</p>
+                        <div class="footer__social">
+                            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                        </div>
+                        <p class="footer__copy">&#169; HOUSEOFCODE 2025</p>
+                    </footer>
+
+            </section>
+            <!--===== FOOTER =====-->
+        </main>
+
+        
+
+        
+

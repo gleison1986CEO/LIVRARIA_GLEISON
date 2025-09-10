@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Intrucoes ao sistema";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+<div id="instrucoes">
+<h2 id="textIntructionsTitle">Instruções ao sistema * WITT ADVOCACIA</h2>
+<h2 id="textIntructions">Laudos</h2>
+<p id="textIntructionsData">* Para realizar o cadastro dos laudos na plataforma,o ususário poderá preencher os dados na aba novo laudo e adicionar a 'URL/URI/LINK' do documento PDF que será adicionado ao banco de dados WITT</p>
+<p id="textIntructionsData">* È necessário cadastro correto de palavras chaves, e descrição com masi de 400 caracteres para que o app encontre o laudo corretamente</p>
+<p id="textIntructionsData">* Os laudos são cadastrados apenas no sistema WITT ADVOCACIA, não e possivel realizar qualquer cadastrar em outros sistemas.</p>
+<p id="textIntructionsData">* Todos os laudos cadastrados estarão verificados e modificados para arquivos em 'HASHCODE' com maior segurança no servidor WITT ADVOCACIA.</p>
+<h2 id="textIntructions">Intruções para cidades e estados (como cadastrar latitude e longitude exatas para o mapa no APP)</h2>
+<p id="textIntructionsData">* Para adquirir so dados latitude e longitude poderá visitar o site: informando o local, bairro, cidade ou estado  </p>
+<p id="textIntructionsData">* INFO: https://www.latlong.net/  </p>
+<h2 id="textIntructions">Como buscar laudos e documentos no sistema?</h2>
+<p id="textIntructionsData">* A aba LaudosPJ tras alguns campos que podem ajudar na busca de cada documento sendo por: cnpj,palavra chave ou descrição do texto interno do documento</p>
+<h2 id="textIntructions">Datalogs</h2>
+<p id="textIntructionsData">* A aba datalogs, tras informações e logs de usuários logados no app como data, cargo, data do login e o que foi exectado pelo usuário</p>
+<h2 id="textIntructions">Graus de risco</h2>
+<p id="textIntructionsData">* A aba graus de risco, tras informações de graus de risco da empresa como grau 1, 2, 3, 4, 5</p>
+<p id="textIntructionsData">* A aba graus de risco, permitir a adição de novos graus de risco de acordco com cada empresa cadastrada no sistema WITT ADVOCACIA</p>
+<h2 id="textIntructions">HASHES ou security hash login</h2>
+<p id="textIntructionsData">* A aba hashes tras o hash do momento logado de cada usuário/advogado utilizando o app</p>
+<h2 id="textIntructions">Logins</h2>
+<p id="textIntructionsData">* A aba logins nos trás a possibilidade de bloquear/liberar/escluir advogados ao acesso ao app</p>
+<p id="textIntructionsData">* A aba logins nos permtir adcionar novos advogados a plataforma para que o advogado possa acessar os laudos/arquivos/empresas</p>
+<h2 id="textIntructions">maiores informações suporte ou contato</h2>
+<p id="textIntructionsData"><a href="https://api.whatsapp.com/send/?phone=55219654080330&text=Olá! Gleison Silveira, estamos precisando de um suporte você pode nos ajudar?">preciso acionar o suporte!</a></p>
+</div>
+}else{
+
+  <div id="acessoNegado">
+    <p>Você não tem permissão de acesso a esta página!</p>
+    <p>Porfavor contate um administrador</p>
+  </div>
+
+}

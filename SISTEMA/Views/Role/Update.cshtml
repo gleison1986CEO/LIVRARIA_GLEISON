@@ -1,0 +1,73 @@
+﻿@model RoleEdit
+@{
+    ViewData["Title"] = "PERMISSÕES";
+}
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<form method="post" id="formularios">
+
+    <input type="hidden" name="roleName" value="@Model.Role.Name" />
+    <input type="hidden" name="roleId" value="@Model.Role.Id" />
+
+
+
+    @if(@Model.Role.Name == "Advogado"){
+           <p id="btn">Permissão @Model.Role.Name : Permissões de leitura , atualizações e downloads de laudos.</p>
+    }else if(@Model.Role.Name == "Administrador"){
+           <p id="btn">Permissão @Model.Role.Name : Permissão geral,downloads de laudos, criar e atualizar usuários.</p>
+    }else if(@Model.Role.Name == "Usuario"){
+           <p id="btn">Permissão @Model.Role.Name : Permissões apenas de leitura e pesquisa.</p>
+    }
+
+
+
+    
+    <h2  id="button_Perfil" >Você irá adcionar Permissões aos usuários abaixo</h2>
+    
+    <table class="table table-bordered table-sm">
+        @if (Model.NonMembers.Count() == 0)
+        {
+            <tr><td colspan="2">Todos os Usuários desta permissão</td></tr>
+        }
+        else
+        {
+            @foreach (AppUser user in Model.NonMembers)
+            {
+                <tr>
+                       <td id="userPermissoes">@user.UserName</td>
+                    <td>
+                
+                        <div class="form-group form-check">
+                            <label class="switch">
+                                <input type="checkbox" name="AddIds" value="@user.Id">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                
+                    </td>
+
+
+
+                </tr>
+            }
+        }
+    </table>
+    <div class="form-group">
+        <input type="submit" value="atualizar permissões" id="btn" class="btn btn-success" />
+    </div>
+
+</form>
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

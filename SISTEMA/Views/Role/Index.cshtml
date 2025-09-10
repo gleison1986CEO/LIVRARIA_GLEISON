@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+@{
+    ViewData["Title"] = "REGRAS";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row">
+@foreach (var role in Model) {
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>ID</th>
+                                    <th><span class="las la-sort"></span>Permissões</th>
+                                    <th><span class="las la-sort"></span>Adicionar Permissão</th>
+                                    <th><span class="las la-sort"></span>Remover Permissão</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   
+                                    
+                                    <td>
+                                        @role.Id
+                                    </td>
+
+                                    <td>
+                                        @role.Name
+                                    </td> 
+
+                                    <td>
+                                          <a  id="cardItem" asp-action="Update" asp-route-id="@role.Id">
+                                               <i class="fas fa-edit" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+                                          
+                                    </td>    
+
+                                    <td>
+                                          <a  id="cardItem" asp-action="Remove" asp-route-id="@role.Id">
+                                               <i class="fas fa-edit" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+                                          
+                                    </td>                                                                   
+                                   
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  
+
+}
+</div>
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

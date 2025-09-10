@@ -1,0 +1,32 @@
+﻿@model sistema.Models.Dispositivo
+
+@{
+    ViewData["Title"] = "DISPOSITIVO";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row" id="formularios">
+    <div class="col-md-12">
+        <div class="card">
+          
+            <h3 id="HOSTNAME"> DISPOSITIVO:  @Html.DisplayFor(model => model.id), @Html.DisplayFor(model => model.nome), @Html.DisplayFor(model => model.chave)</h3>
+      
+      </div>
+    </div>
+</div>
+
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

@@ -1,0 +1,60 @@
+﻿@model sistema.Models.Usuario
+
+@{
+    ViewData["Title"] = "USUARIO:::";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row" id="formularios">
+    <div class="col-md-12">
+        <form asp-action="EditarImagem" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+
+            
+             <input asp-for="codigo" class="form-control"   hidden="true"/>
+             <input asp-for="hashcode" class="form-control" hidden="true"/>
+             <input asp-for="username" class="form-control" hidden="true"/>
+             <input asp-for="nome" class="form-control" hidden="true"/>
+             <input asp-for="sobrenome" class="form-control" hidden="true"/>
+             <input asp-for="bio" class="form-control" hidden="true"/>
+             <input asp-for="website" class="form-control" hidden="true"/>
+             <input asp-for="email" class="form-control" hidden="true"/>
+             <input asp-for="senha" class="form-control" hidden="true"/>
+             <input asp-for="perfil" class="form-control" hidden="true"/>
+             <input asp-for="cidade" class="form-control" hidden="true"/>
+             <input asp-for="estado" class="form-control" hidden="true"/>
+             <input asp-for="local" class="form-control" hidden="true"/>
+             <input type="checkbox" asp-for="Ativo" class="form-control" hidden="true"/>
+
+
+   
+            <div class="form-group">
+                    <span id="SEND">Escolha/Carregue uma boa foto para o perfil clicando abaixo</span>
+                    <label for="foto" id="FOTOBTN"><i class="fas fa-clone"></i> Escolha uma Foto</label>
+                    <input asp-for="foto" id="foto" type="file" accept="image/*" class="form-control" style="display:none" />
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" value="ENVIAR FOTO" id="btn"class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

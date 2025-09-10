@@ -1,0 +1,27 @@
+﻿@model User
+@{
+     ViewData["Title"] = "CADASTRO DE REVENDEDOR";
+     Layout = "~/Views/Shared/_Login.cshtml";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form method="post" id="formularios">
+    <input type="hidden" asp-for="Type" value="REVENDEDOR"/>
+    
+    <center><p><h1><img id="IMAGESEARCH"src="~/images/logo/imagesertt.png"></h1></p></center>
+    <span id="SEND">Cadastre-se e faça parte do nosso time de Revendedores.</span>
+    <div class="form-group">
+        <input asp-for="Name" type="text" id="InputItemOne"name="Name"   maxlength="10"  class="form-control"  placeholder="Ex:Digite um nome de usuário como JHON1986"/>
+    </div>
+    <div class="form-group">
+        <input asp-for="Email"   id="InputItemOne" type="email" class="form-control" placeholder="Ex: Digite seu Email (Válido)"/>
+    </div>
+    <div class="form-group">
+        <input asp-for="Password" id="InputItemOne"type="password" id="senha" class="form-control"  placeholder="Ex: Digite uma senha contendo (numeros, letras e caracteres)"/>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Quero me Cadastrar!" id="btn" class="btn btn-success" />
+    </div>
+</form>

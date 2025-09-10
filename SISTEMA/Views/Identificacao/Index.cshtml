@@ -1,0 +1,132 @@
+﻿@model IEnumerable<sistema.Models.Identificacao>
+
+@{
+    ViewData["Title"] = "IDENTIFICAÇÃO:::";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+        
+
+
+<div id="caixas">
+         <form action=""         id="form">
+         <input  type="textr"    id="SearchOneItemOneContenteSearchPARTIAL"  name="Nome"  placeholder="EX: IDENTIIFCAÇÂO, NOME">
+         <button type="submit"   id="button_search_cadastro">Pesquisar</button>
+         </form>        
+      
+</div>  
+
+
+<div class="row">
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th id="HIDDENITENS"><span class="las la-sort" ></span>Ip GLOBAL</th>
+                                    <th id="HIDDENITENS"><span class="las la-sort" ></span>Autenticação de dois fatores</th>
+                                    <th><span class="las la-sort"></span>Email</th>
+                                    <th><span class="las la-sort"></span>Status</th>
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   
+                                    
+                                    <td id="HIDDENITENS">
+                                        @Html.DisplayFor(modelItem => item.ip)
+                                    </td>
+                                    <td id="HIDDENITENS">
+                                       @Html.DisplayFor(modelItem => item.auth2fa)
+                                    </td>
+                                    <td>
+                                       @Html.DisplayFor(modelItem => item.email)
+                                    </td>
+                                    <td>
+                                       Online
+                                    </td>
+                                    <td>
+                                          <a asp-action="DadosIdentificacao" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+                                          
+                                    </td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+  <a asp-action="DadosIdentificacao" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th id="HIDDENITENS"><span class="las la-sort"></span>Ip GLOBAL</th>
+                                    <th id="HIDDENITENS"><span class="las la-sort"></span>Autenticação de dois fatores</th>
+                                    <th><span class="las la-sort"></span>Email</th>
+                                    <th><span class="las la-sort"></span>Status</th>
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                                                        
+                                    <td id="HIDDENITENS">
+                                        @Html.DisplayFor(modelItem => item.ip)
+                                    </td>
+                                    <td id="HIDDENITENS">
+                                       @Html.DisplayFor(modelItem => item.auth2fa)
+                                    </td>
+                                    <td>
+                                       @Html.DisplayFor(modelItem => item.email)
+                                    </td>
+                                    <td>
+                                       Offline
+                                    </td>
+                                    <td>
+                                          <a asp-action="DadosIdentificacao" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                                          <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+                                            <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>
+                                          </a>
+
+                                    </td>
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+    </a>
+
+  }
+}
+
+</div>
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

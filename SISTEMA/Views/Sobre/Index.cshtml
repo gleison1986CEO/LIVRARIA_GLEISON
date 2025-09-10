@@ -1,0 +1,193 @@
+﻿@model IEnumerable<sistema.Models.Sobre>
+
+@{
+    ViewData["Title"] = "INFORMAÇÕES SOBRE";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+
+<div id="caixas">
+         <form action=""       id="form">
+
+         <select id="SearchOneItemOneContenteSearchFULL" name="Categoria" asp-items="ViewBag.CATEGORIA" >
+                <option value=" ">Pesquisar pela Categoria</option>
+         </select>      
+          
+         <input  type="number"  id="SearchOneItemOneContenteSearchFULL"  name="Titulo"  placeholder="EX: Nome da Informação">
+
+         <span id="SENDINFO">Data do Crédito</span>
+         <input  type="date"   id="SearchOne"  name="Inicio">
+         <input  type="date"   id="SearchOne"  name="Fim">    
+
+         <button type="submit" id="button_search_cadastro_DEPESAS">Pesquisar</button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Sobre/Novo">Novo</a></button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Home/WebSite">WebSite</a></button>
+         </form>        
+</div>        
+
+
+
+
+<span id="SEND">Faça Pesquisas Relacionadas a Informação do Site</span>
+
+    <div class="content" id="GRAFICOS">
+        <div class="cards">
+
+
+            <div class="card">
+                <div class="card-left">
+                    <div class="card-icon icon-two">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-top-info">
+                        <h2>Informações</h2>
+                        <h4>@ViewBag.TOTAL Unid.</h4>
+                    </div>
+    
+                </div>
+            
+    
+
+    </div>
+    </div>
+</div>    
+
+
+
+<span id="SEND">CInformações do WebSite</span>
+<div id="IDTABELAS">
+
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Categoria</th>
+                                    <th><span class="las la-sort"></span>Titulo</th>
+                                    <th><span class="las la-sort"></span>Descrição</th> 
+                                    <th><span class="las la-sort"></span>Data</th>                                    
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+
+   
+                         
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.categoria)
+                                    </td> 
+  
+                         
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.titulo)
+                                    </td> 
+           
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.descricao)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>  
+                                   
+                                    <td>
+                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                           
+                                    </td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+  <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th><span class="las la-sort"></span>Categoria</th>
+                                    <th><span class="las la-sort"></span>Titulo</th>
+                                    <th><span class="las la-sort"></span>Descrição</th> 
+                                    <th><span class="las la-sort"></span>Data</th>                                    
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+ 
+                         
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.categoria)
+                                    </td> 
+  
+                         
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.titulo)
+                                    </td> 
+           
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.descricao)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>  
+                                    <td>
+                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                                          <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+                                            <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>
+                                          </a>
+
+                                    </td>
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+    </a>
+
+  }
+}
+</div>
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

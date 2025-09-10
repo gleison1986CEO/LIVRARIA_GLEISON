@@ -1,0 +1,212 @@
+﻿@model IEnumerable<sistema.Models.Dispositivo>
+
+@{
+    ViewData["Title"] = "DISPOSITIVO";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+<div id="caixas">
+         <form action=""       id="form">
+
+         <input  type="text"  id="SearchOneItemOneContenteSearchFULL"  name="Nome"  placeholder="EX: Nome do Aparelho">          
+         <input  type="text"  id="SearchOneItemOneContenteSearchFULL"  name="Chave"  placeholder="EX: MAC">     
+         <input  type="text"  id="SearchOneItemOneContenteSearchFULL"  name="Id"  placeholder="EX: Id">      
+   
+         <span id="SENDINFO">Data/Hora do Cadastro</span>
+         <input  type="date"   id="SearchOne"  name="Inicio">
+         <input  type="date"   id="SearchOne"  name="Fim">    
+
+
+
+         <button type="submit" id="button_search_cadastro_DEPESAS">Pesquisar</button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Dispositivos/Novo">Novo Mac</a></button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Produto/Index">Produtos</a></button>
+         </form>        
+</div>        
+
+
+
+
+<span id="SEND">Faça Pesquisas Relacionadas ao Mac/Aparelho</span>
+
+    <div class="content" id="GRAFICOS">
+        <div class="cards">
+
+            <div class="card">
+                <div class="card-left">
+                    <div class="card-icon icon-two">
+                        <i class="fa fa-mobile-phone"></i>
+                        
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-top-info">
+                        <h2>Mac/Aparelho</h2>
+                        <h4>@ViewBag.TOTAL Unid.</h4>
+                    </div>
+    
+                </div>
+            </div>
+
+    </div>
+</div>    
+
+
+
+<span id="SEND">Detalhes sobre ao Mac/Aparelho</span>
+<div id="IDTABELAS">
+
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Status</th>
+                                    <th><span class="las la-sort"></span>ID</th>
+                                    <th><span class="las la-sort"></span>MAC</th>
+                                    <th><span class="las la-sort"></span>Nome</th>
+                                    <th><span class="las la-sort"></span>Data</th>                                
+                                    @if (this.User.IsInRole("Administrador"))
+                                    {                               
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                    }
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr> 
+                         
+                                    <td>
+                                        @if(item.Ativo == false){
+                                           <span id="STATUSINATIVO">INATIVO</span>
+                                        }else{
+                                           <span id="STATUSINATIVO">ATIVO</span>
+                                        }
+                                    </td> 
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.id)
+                                    </td> 
+                                    
+           
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.chave)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.nome)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>
+                                    @if (this.User.IsInRole("Administrador"))
+                                    {
+                                    <td>
+                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                           
+                                    </td>
+                                    }
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+  <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th><span class="las la-sort"></span>Status</th>
+                                    <th><span class="las la-sort"></span>ID</th>
+                                    <th><span class="las la-sort"></span>MAC</th>
+                                    <th><span class="las la-sort"></span>Nome</th>
+                                    <th><span class="las la-sort"></span>Data</th> 
+                                    
+                                    @if (this.User.IsInRole("Administrador"))
+                                    {                               
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                    }
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        @if(item.Ativo == false){
+                                           <span id="STATUSINATIVO">INATIVO</span>
+                                        }else{
+                                           <span id="STATUSINATIVO">ATIVO</span>
+                                        }
+                                    </td> 
+                                    
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.id)
+                                    </td> 
+                                    
+           
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.chave)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.nome)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>
+                                   
+                                    @if (this.User.IsInRole("Administrador"))
+                                    {
+                                 
+                                    <td>
+                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                                          <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+                                            <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>
+                                          </a>
+
+                                    </td>
+                                    }
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+    </a>
+
+  }
+}
+</div>
+
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

@@ -1,0 +1,178 @@
+﻿@model IEnumerable<sistema.Models.Usuario>
+
+@{
+    ViewData["Title"] = "USUARIO:::";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+        
+
+  
+
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>    
+
+  
+<div id="caixas">
+         <form action=""       id="form">
+         @if (this.User.IsInRole("Administrador"))
+         {
+            <select id="SearchOneItem" name="Email" asp-items="ViewBag.USUARIOS" required>
+                    <option value=" ">Pesquisar Perfil pelo Usuário</option>
+            </select>   
+            <button type="submit" id="button_search_cadastro">Pesquisar</button>
+         }
+         @if (this.User.IsInRole("Revenda") || this.User.IsInRole("Parceiro"))
+         {  
+            <input type="hidden" value="@ViewBag.PERFIL" name="Email" readonly="true" required>    
+            <button type="submit" id="button_search_cadastro_new_PERFIL">Verificar meu Perfil</button>
+         }
+         
+         </form>        
+</div>  
+
+<div class="row">
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Foto</th>
+                                    <th><span class="las la-sort"></span>Contato</th>
+                                    <th><span class="las la-sort"></span>Nome</th>
+                                    <th><span class="las la-sort"></span>Documento</th>
+                                    <th><span class="las la-sort"></span>Gênero</th>
+                                    <th><span class="las la-sort"></span>Cidade</th>
+                                    <th><span class="las la-sort"></span>Estado</th>
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img  id="fotos"src="~/images/users/@Html.DisplayFor(modelItem => item.foto)@ViewBag.EXT">
+                                    </td> 
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.telefone)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.nome)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.perfil)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.sexos)
+                                    </td>     
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.cidade)
+                                    </td>  
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.estado)
+                                    </td>                                        
+                                    <td>
+                                          <a asp-action="EditarUsuario" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                                    </td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+  <a asp-action="EditarUsuario" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th><span class="las la-sort"></span>Foto</th>
+                                    <th><span class="las la-sort"></span>Contato</th>
+                                    <th><span class="las la-sort"></span>Nome</th>
+                                    <th><span class="las la-sort"></span>Documento</th>
+                                    <th><span class="las la-sort"></span>Gênero</th>
+                                    <th><span class="las la-sort"></span>Cidade</th>
+                                    <th><span class="las la-sort"></span>Estado</th>                                    
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img id="fotos"src="~/images/users/@Html.DisplayFor(modelItem => item.foto)@ViewBag.EXT">
+                                    </td>                                                                          
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.telefone)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.nome)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.perfil)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.sexos)
+                                    </td>   
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.cidade)
+                                    </td>  
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.estado)
+                                    </td>                                                                        
+                                    <td>
+                                          <a asp-action="EditarUsuario" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                                          <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+                                            <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>
+                                          </a>
+
+                                    </td>
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+    </a>
+
+  }
+}
+
+</div>
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

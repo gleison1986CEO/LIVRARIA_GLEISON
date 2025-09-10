@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "ANALISANDO DADOS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+   Html.RenderPartial("~/Views/Shared/Verificacao/Search.cshtml"); 
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Verificacao/Search.cshtml"); 
+
+}

@@ -1,0 +1,34 @@
+﻿@model sistema.Models.Usuario
+
+@{
+    ViewData["Title"] = "USUARIO:::";
+ Layout = "~/Views/Shared/_Deletar.cshtml";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+ <div id="delete"> 
+     <span id="delete_text">Quer mesmo deletar este usuario?</span>
+     <p></p>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="hashcode" />
+        <input id="delete_button"type="submit" value="deletar usuario ->  @Html.DisplayFor(model => model.username)" class="btn btn-danger" />
+    </form>
+    <span id="delete_text_middle">obs: ao deletar qualquer informação você não poderá mais restaurar!</span>
+</div>  
+    
+ 
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

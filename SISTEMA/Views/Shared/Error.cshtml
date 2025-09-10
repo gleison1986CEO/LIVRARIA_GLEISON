@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "VERIFICAÇÃO DE DADOS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+   Html.RenderPartial("~/Views/Shared/Verificacao/Error.cshtml"); 
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Verificacao/error.cshtml"); 
+
+}

@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DARK GAME</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/excellentexport@3.7.0/dist/excellentexport.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    
+
+    
+</head>
+
+<body>
+
+  <!------------------sidenav-------------->
+    <input type="checkbox" id="active">
+    <nav>
+        <div class="content">
+            <div class="info-admin">
+                <div class="user-card">
+                    <div class="user-image">
+                          <a href="/Home/Grafico"> <img id="LOGOMENU"src="~/images/logo/dark.png" alt="@User.Identity.Name"></a>
+                    </div>
+                
+                </div>
+             
+            </div>
+
+
+            <ul class="nav-item">
+                
+
+                <li id="USUARIOLOGADO">
+                    @User.Identity.Name
+                </li>
+                
+                <li>
+                    <a  asp-area="" asp-controller="Home" asp-action="Grafico">
+                        <span class="sidebar-icon"><i class="fas fa-chart-pie"></i></span>
+                        <span class="sidebar-text">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a  id="ITEMMENU" asp-area="" asp-controller="Financeiro" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-text">Financeiro</span>
+                    </a>
+                </li>      
+                            
+                @if (this.User.IsInRole("Administrador"))
+                        {
+
+                
+                      
+                              <li class="drop-menu">
+                                    <a href="#" class="link-flex" id="sub-btn2">
+                                        <span class="sidebar-icon">
+                                            <i class="fas fa-dice-d6"></i>
+                                            <span class="sidebar-text">Produto</span>
+                                        </span>
+                                        <span class="end-icon"><i class="fas fa-chevron-right"></i></span>
+                                    </a>
+                                    <div class="submenu2">
+                                        <ul class="nav-item">
+
+                                            @if (this.User.IsInRole("Administrador"))
+                                            {
+
+                                                  <li>
+                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Produto" asp-action="Index">
+                                                            <span class="sidebar-icon"><i class="fas fa-chess"></i></span>
+                                                            <span class="sidebar-text">Produto</span>
+                                                        </a>
+                                                 </li> 
+                                                 <li>
+                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Fabricante" asp-action="Index">
+                                                            <span class="sidebar-icon"><i class="fas fa-dice-d20"></i></span>
+                                                            <span class="sidebar-text">Fabricante</span>
+                                                        </a>
+                                                 </li> 
+                                                 <li>
+                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Categoria" asp-action="Index">
+                                                            <span class="sidebar-icon"><i class="fas fa-chess-knight"></i></span>
+                                                            <span class="sidebar-text">Categoria</span>
+                                                        </a>
+                                                 </li>      
+                                                 <li>
+                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Console" asp-action="Index">
+                                                            <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
+                                                            <span class="sidebar-text">Console</span>
+                                                        </a>
+                                                 </li>   
+                                            }
+                                            
+
+
+
+                                            
+                                                                                                                                                                                                                                                       
+                                        </ul>
+                                    </div>
+                                </li>
+
+                }
+                            
+            
+
+               
+                @if (this.User.IsInRole("Parceiro") || this.User.IsInRole("Revenda"))
+                {
+               
+                    <li>
+                        <a    href="https://api.whatsapp.com/send?phone=5121965408033&text=Olá 👋🏻,estou precisando de suporte na plataforma, você poderia me ajudar?" target="blank_" >
+                            <span class="sidebar-icon"><i class="fa fa-whatsapp"></i></span>
+                            <span class="sidebar-text">Suporte Whatsapp</span>
+                        </a>
+                    </li> 
+                }                
+
+
+                            
+                @if (this.User.IsInRole("Administrador"))
+                        {
+
+                
+                      
+                              <li class="drop-menu">
+                                    <a href="#" class="link-flex" id="sub-btn7">
+                                        <span class="sidebar-icon">
+                                            <i class="fas fa-desktop"></i>
+                                            <span class="sidebar-text">LandingPage</span>
+                                        </span>
+                                        <span class="end-icon"><i class="fas fa-chevron-right"></i></span>
+                                    </a>
+                                    <div class="submenu7">
+                                        <ul class="nav-item">
+                                            <li>
+                                                <a  asp-area="" asp-controller="Home" asp-action="Index" >
+                                                    <span class="sidebar-icon"><i class="fas fa-keyboard"></i></span>
+                                                    <span class="sidebar-text">Site</span>
+                                                </a>
+                                            </li>                                              
+                                            <li>
+                                                <a  asp-area="" asp-controller="Categoria" asp-action="Index" >
+                                                    <span class="sidebar-icon"><i class="fas fa-keyboard"></i></span>
+                                                    <span class="sidebar-text">Add .Categoria</span>
+                                                </a>
+                                            </li>                                                
+                                            <li>
+                                                <a  asp-area="" asp-controller="Banner" asp-action="Index" >
+                                                    <span class="sidebar-icon"><i class="fas fa-brush"></i></span>
+                                                    <span class="sidebar-text">Add. Banner</span>
+                                                </a>
+                                            </li>    
+                                                                               
+                                            <li>
+                                                <a  asp-area="" asp-controller="Sobre" asp-action="Index" >
+                                                    <span class="sidebar-icon"><i class="far fa-keyboard"></i></span>
+                                                    <span class="sidebar-text">Add. Info</span>
+                                                </a>
+                                            </li>
+                                                                                                                                                                                               
+                                        </ul>
+                                    </div>
+                                </li>
+
+                }
+
+                            
+                @if (this.User.IsInRole("Administrador"))
+                        {
+
+                
+                      
+                              <li class="drop-menu">
+                                    <a href="#" class="link-flex" id="sub-btn6">
+                                        <span class="sidebar-icon">
+                                            <i class="fas fa-dice-d6"></i>
+                                            <span class="sidebar-text">Localização</span>
+                                        </span>
+                                        <span class="end-icon"><i class="fas fa-chevron-right"></i></span>
+                                    </a>
+                                    <div class="submenu6">
+                                        <ul class="nav-item">
+                                            <li>
+                                                <a  asp-area="" asp-controller="Cidades" asp-action="Index" >
+                                                    <span class="sidebar-icon"><i class="fas fa-flag"></i></span>
+                                                    <span class="sidebar-text">Cidade</span>
+                                                </a>
+                                            </li>                                            
+                                            <li>
+                                                <a  asp-area="" asp-controller="Estados" asp-action="Index" >
+                                                    <span class="sidebar-icon"><i class="far fa-flag"></i></span>
+                                                    <span class="sidebar-text">Estado</span>
+                                                </a>
+                                            </li>
+    
+                                            <li>
+                                                    <a  asp-area="" asp-controller="Mapa" asp-action="Index" >
+                                                        <span class="sidebar-icon"><i class="fas fa-route"></i></span>
+                                                        <span class="sidebar-text">Localização</span>
+                                                    </a>
+                                            </li>                                                                                                                                                                                                     
+                                        </ul>
+                                    </div>
+                                </li>
+
+                }
+
+@if (this.User.IsInRole("Administrador"))
+        {
+
+
+                <li class="drop-menu">
+                    <a href="#" class="link-flex" id="sub-btn3">
+                        <span class="sidebar-icon">
+                            <i class="fas fa-chart-pie"></i>
+                            <span class="sidebar-text"> Relatórios</span>
+                        </span>
+                        <span class="end-icon"><i class="fas fa-chevron-right"></i></span>
+                    </a>
+                    <div class="submenu3">
+                        <ul class="nav-item">
+
+                                                                                         
+                            <li>
+                                <a  asp-area="" asp-controller="Datalogs" asp-action="Index" >
+                                    <span class="sidebar-icon"><i class="fas fa-chart-line"></i></span>
+                                    <span class="sidebar-text">Relatório</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a  asp-area="" asp-controller="Logs" asp-action="Index" >
+                                    <span class="sidebar-icon"><i class="fas fa-bullseye"></i></span>
+                                    <span class="sidebar-text">Log</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+                }    
+              
+                @if (this.User.IsInRole("Administrador"))
+
+                {
+
+                <li>
+                    <a  asp-area=""  id="ITEMMENU" asp-controller="Usuario" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-address-book"></i></span>
+                        <span class="sidebar-text">Perfil</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a  asp-area="" asp-controller="Identificacao" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-mask"></i></span>
+                        <span class="sidebar-text">Indetificação</span>
+                    </a>
+                </li>
+                <li>
+                        <a  asp-area="" asp-controller="Home" asp-action="Documentacao" >
+                        <span class="sidebar-icon">
+                            <i class="fas fa-book"></i>
+                            <span class="sidebar-text">Doc.</span>
+                        </span>
+                        <span class="version-number">v1.0.0</span>
+                    </a>
+                </li>
+                }         
+                
+
+
+                <li>
+                    <a asp-area="" asp-controller="Account" asp-action="Logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Sair
+                        </a>
+                </li>     
+
+            </ul>
+        </div>
+
+    </nav>
+    <!------------------main-------------->
+      <!------------------main-------------->
+    <main>
+        <div class="top-header">
+            <div class="logo">
+                <a href="/Home/Grafico"> <img src="~/images/logo/dark.png" alt="@User.Identity.Name"></a>
+            </div>
+            <div>
+                <label for="active" class="menu-btn">
+                    <i class="fas fa-bars" id="menu"></i>
+                </label>
+            </div>
+        </div>
+        <!------------------header-------------->
+        <header>
+            <div class="content">
+                <div class="btn-left">
+                       @{Html.RenderPartial("~/Views/Shared/Pop/User.cshtml");}
+                       <a  id="TextDashBoard" asp-area="" asp-controller="Home" asp-action="Grafico">
+                         Ola! @User.Identity.Name, Sessão Finaliza: @ViewBag.TIMER 
+                        </a>
+                 
+                </div>
+                                        
+                @if (this.User.IsInRole("Administrador") )
+                {
+
+                            <div class="btn-right">
+                            <a  asp-area="" asp-controller="Admin" asp-action="Index">
+                                <button class="btn btn-sec left-radius">Administrador/Usuário</button>
+                            </a>  
+                            
+                            <a  asp-area="" asp-controller="Role" asp-action="Index">
+                                <button class="btn btn-sec right-radius">Permissão</button>
+                            </a>  
+                            </div>
+                }
+
+            
+            </div>
+        </header>
+        <!------------------content-------------->
+
+        </section>
+   
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="assets/js/vendor/apexcharts.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/excellentexport.js" asp-append-version="true"></script>
+    <script src="~/js/savetext.js" asp-append-version="true"></script>
+    <script src="~/js/excellentexport.min.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/pass.js" asp-append-version="true"></script>
+    <script src="~/js/imagem.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/graph.js" asp-append-version="true"></script>
+    <script src="~/js/iptv.js" asp-append-version="true"></script>
+    <script src="~/js/loginShow.js" asp-append-version="true"></script>
+    <script src="~/js/showHideDiv.js" asp-append-version="true"></script>
+    <script src="~/js/onlyNumber.js" asp-append-version="true"></script>
+    <script src="~/js/dateToday.js" asp-append-version="true"></script>
+    <script src="~/js/showPop.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlbf7xJgI1bHeI8ltuD8OmF7HHkGX1C50&callback=myMap"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

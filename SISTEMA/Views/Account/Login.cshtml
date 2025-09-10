@@ -1,0 +1,68 @@
+﻿@model Login
+@{
+     ViewData["Title"] = "AUTENTICAÇÃO DO USUÁRIO";
+     Layout = "~/Views/Shared/_Login.cshtml";
+}
+
+<center>
+<div class="row">
+    <div class="col-md-9">
+        <section>
+            <form id="account" method="post">
+                <img id="imgLogin"src="~/images/logo/login.png" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <p id="REDESOCIAL">Acesso ao Sistema</p>
+                <div class="form-floating" id="spaces_input">
+                    <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true"  placeholder="* Seu Email" required="VOCÊ PRECISA PREENCHER COM SEU EMAIL"/>
+                </div>
+                <div class="form-floating" id="spaces_input">
+                    <input asp-for="Password" class="form-control" autocomplete="current-password" type="password" aria-required="true" placeholder="* Sua Senha" required="VOCÊ PRECISA PREENCHER A SUA SENHA"/>
+                </div>
+
+                <div class="form-floating" id="spaces_input">
+                    <input  asp-for="auth2fa" id="auth2fa"class="form-control" aria-required="true" type="password" placeholder="*Código 'Token Autenticador'"/>
+                </div>   
+
+                                                          
+                <div id="LEMBRAR">
+                <div class="form-group form-check">
+                    <label class="switch" id="SWITCH">
+                        <input type="checkbox" asp-for="Remember" >
+                        <span class="slider round"></span>
+                    </label>
+                    <span id="SENDLEMBRAR">Lembrar? Sim/Não</span>
+                </div>
+                </div>
+                
+                <center>
+                <div>
+                     <input  id="login-submit" type="submit"  value="Entrar" />                
+                </div>                   
+            
+
+            </center>
+
+
+             @if(ViewBag.ErrorLogin !=null){
+                <center>
+                    <div id="VIEWERROR">
+                    <p><i class="fas fa-bell"></i> @ViewBag.ErrorLogin</p>
+                </div>
+                </center>              
+             }
+
+
+
+                             
+            </form>
+                       
+        </section>
+    </div>
+  
+</div>
+</center>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

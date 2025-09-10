@@ -1,0 +1,1697 @@
+{
+  "Files": [
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/obj/Debug/net8.0/scopedcss/projectbundle/sistema.bundle.scp.css",
+      "PackagePath": "staticwebassets/sistema.bundle.scp.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/android-chrome-192x192.png",
+      "PackagePath": "staticwebassets/android-chrome-192x192.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/android-chrome-512x512.png",
+      "PackagePath": "staticwebassets/android-chrome-512x512.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/apple-touch-icon.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/css/website.css",
+      "PackagePath": "staticwebassets/css/website.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/favicon-16x16.png",
+      "PackagePath": "staticwebassets/favicon-16x16.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/favicon-32x32.png",
+      "PackagePath": "staticwebassets/favicon-32x32.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_29e1c9f880cb44c19ce158a9903889cb.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_29e1c9f880cb44c19ce158a9903889cb.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_2e5c3a272d474115bf844c90b716c83f.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_2e5c3a272d474115bf844c90b716c83f.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_33080a9749314464a1a80b3240d3d9c1.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_33080a9749314464a1a80b3240d3d9c1.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_4bef263fa73f4d62bb58a362a80d685e.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_4bef263fa73f4d62bb58a362a80d685e.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_55ec47c5a43e4f91a7abe4613afeb624.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_55ec47c5a43e4f91a7abe4613afeb624.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_a86ae0b570294f0e8c88f2c50b0a258c.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_a86ae0b570294f0e8c88f2c50b0a258c.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_aec30222eb094398baeca0bd23180fff.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_aec30222eb094398baeca0bd23180fff.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_c9112e228c924d1daaa28647c10df665.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_c9112e228c924d1daaa28647c10df665.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/files/pdf/NDB_AVIATION_f60d998c1d8f4da6a6f6ac3838b73cd0.pdf",
+      "PackagePath": "staticwebassets/files/pdf/NDB_AVIATION_f60d998c1d8f4da6a6f6ac3838b73cd0.pdf"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/360_F_352243341_PO7BRz8xgP28i4got0yteXGxrrS9TAhj.jpg",
+      "PackagePath": "staticwebassets/images/360_F_352243341_PO7BRz8xgP28i4got0yteXGxrrS9TAhj.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/Canada.png",
+      "PackagePath": "staticwebassets/images/Canada.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/France.png",
+      "PackagePath": "staticwebassets/images/France.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/Germany.png",
+      "PackagePath": "staticwebassets/images/Germany.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/TV.png",
+      "PackagePath": "staticwebassets/images/TV.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_2c9f3e388ff442ed9e2bb8b767c0f10d.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_2c9f3e388ff442ed9e2bb8b767c0f10d.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_381b17bd53b341f5acbcbebf6d58509d.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_381b17bd53b341f5acbcbebf6d58509d.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_38e7621df57544abb0414a6224e5902b.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_38e7621df57544abb0414a6224e5902b.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_425d8421a1c04645ad0e2105353c6b00.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_425d8421a1c04645ad0e2105353c6b00.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_47ef0f2b8dfe4b20af289e8e9aaa93a4.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_47ef0f2b8dfe4b20af289e8e9aaa93a4.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_4e4f98f99e21400eb0918be21f8d8f12.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_4e4f98f99e21400eb0918be21f8d8f12.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_5c0ed80c3e924b269a9d026ac6de1ad6.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_5c0ed80c3e924b269a9d026ac6de1ad6.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_838c56334a8d40d88509a5797042a15c.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_838c56334a8d40d88509a5797042a15c.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_a93e695d321c46f183b1e685237080de.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_a93e695d321c46f183b1e685237080de.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_c38ad9b616aa4379a36b58a50662bf75.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_c38ad9b616aa4379a36b58a50662bf75.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_c6402cdc9f1a46b49845ba1c5773628f.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_c6402cdc9f1a46b49845ba1c5773628f.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_c78866846890478589df70e35dd9960b.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_c78866846890478589df70e35dd9960b.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_d46a73ddfb7044eaacabf2281618ab90.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_d46a73ddfb7044eaacabf2281618ab90.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/NDB_AVIATION_d9533dc84d1b451aa01b469be8a068c8.png",
+      "PackagePath": "staticwebassets/images/aeronave/NDB_AVIATION_d9533dc84d1b451aa01b469be8a068c8.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/aeronave/wefweffwe.png",
+      "PackagePath": "staticwebassets/images/aeronave/wefweffwe.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/background/01.png",
+      "PackagePath": "staticwebassets/images/background/01.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/background/bk.png",
+      "PackagePath": "staticwebassets/images/background/bk.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/background/bk2.png",
+      "PackagePath": "staticwebassets/images/background/bk2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/background/plane01.png",
+      "PackagePath": "staticwebassets/images/background/plane01.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/backgroundTV.png",
+      "PackagePath": "staticwebassets/images/backgroundTV.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_0d76ef6c125a4e4fbf4cdd9bf644b1a5.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_0d76ef6c125a4e4fbf4cdd9bf644b1a5.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_36a59d0b338b44c0a9d710d1cf767f17.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_36a59d0b338b44c0a9d710d1cf767f17.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_3a43f0062b4d425eb3aefc44c09df44e.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_3a43f0062b4d425eb3aefc44c09df44e.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_460f2eda004644c1ba6569df2729910c.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_460f2eda004644c1ba6569df2729910c.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_5bba24ed9ab648ccbb8d8a488b6320d0.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_5bba24ed9ab648ccbb8d8a488b6320d0.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_5da9359df4794210a11c1f91456d5675.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_5da9359df4794210a11c1f91456d5675.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_81f58a37b26e4f09a4049e75da560045.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_81f58a37b26e4f09a4049e75da560045.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_8de588a08987418bad9721a16a7b9209.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_8de588a08987418bad9721a16a7b9209.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_9144ae1041084822a3504e9d7c626067.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_9144ae1041084822a3504e9d7c626067.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_9d4811241803431295b9d0e40c3a8100.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_9d4811241803431295b9d0e40c3a8100.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_a0ce2eeab30d46c6a276a9210a3b0dde.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_a0ce2eeab30d46c6a276a9210a3b0dde.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_a549f0ba768845149dd2685e135361d1.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_a549f0ba768845149dd2685e135361d1.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_c1d92cfa5bde4f34bda339c699ec7e03.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_c1d92cfa5bde4f34bda339c699ec7e03.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_c3c4760f8ec3401781672f5392b3abc9.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_c3c4760f8ec3401781672f5392b3abc9.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_d138510fa9904509aaa79d8266f48cfa.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_d138510fa9904509aaa79d8266f48cfa.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_e79da793bf934583b2fe59b1d8985880.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_e79da793bf934583b2fe59b1d8985880.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_eea01890927343cca1491e438db56be2.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_eea01890927343cca1491e438db56be2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/banner/KY_PLAYER_TV_STREAMING_ff0f8f5cf4354b869339f6c1a8625111.png",
+      "PackagePath": "staticwebassets/images/banner/KY_PLAYER_TV_STREAMING_ff0f8f5cf4354b869339f6c1a8625111.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/KY_PLAYER_TV_STREAMING_3a737ab3b79941d49103e60226513146.png",
+      "PackagePath": "staticwebassets/images/canal/KY_PLAYER_TV_STREAMING_3a737ab3b79941d49103e60226513146.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/KY_PLAYER_TV_STREAMING_5f6013188d2a43e2969311de512018b1.png",
+      "PackagePath": "staticwebassets/images/canal/KY_PLAYER_TV_STREAMING_5f6013188d2a43e2969311de512018b1.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/KY_PLAYER_TV_STREAMING_e834c53cb44a4bcebec4b06e4280d390.png",
+      "PackagePath": "staticwebassets/images/canal/KY_PLAYER_TV_STREAMING_e834c53cb44a4bcebec4b06e4280d390.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/KY_PLAYER_TV_STREAMING_ef0803a5f1fe41a698455a2b8fa91abd.png",
+      "PackagePath": "staticwebassets/images/canal/KY_PLAYER_TV_STREAMING_ef0803a5f1fe41a698455a2b8fa91abd.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/NDB_AVIATION_04bf8124071041f085dc06606d14723f.png",
+      "PackagePath": "staticwebassets/images/canal/NDB_AVIATION_04bf8124071041f085dc06606d14723f.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/NDB_AVIATION_2416dc4ea0df4206b9182315fae20384.png",
+      "PackagePath": "staticwebassets/images/canal/NDB_AVIATION_2416dc4ea0df4206b9182315fae20384.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/NDB_AVIATION_2538c0da2457465680929bb427d6f2f1.png",
+      "PackagePath": "staticwebassets/images/canal/NDB_AVIATION_2538c0da2457465680929bb427d6f2f1.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/NDB_AVIATION_b3446ce41c9c4caea821a91b93830f6e.png",
+      "PackagePath": "staticwebassets/images/canal/NDB_AVIATION_b3446ce41c9c4caea821a91b93830f6e.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/canal/NDB_AVIATION_bf0dd679ba0f428eb088fcdfcbaf97a2.png",
+      "PackagePath": "staticwebassets/images/canal/NDB_AVIATION_bf0dd679ba0f428eb088fcdfcbaf97a2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/chart.svg",
+      "PackagePath": "staticwebassets/images/chart.svg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/cinema/cinema.png",
+      "PackagePath": "staticwebassets/images/cinema/cinema.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_02b47c94e808452a87debfe8785cee40.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_02b47c94e808452a87debfe8785cee40.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_15f857a5bc6a4868a4226932866185eb.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_15f857a5bc6a4868a4226932866185eb.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_1efe5a327a0c4f0b9df714b8efa2d038.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_1efe5a327a0c4f0b9df714b8efa2d038.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_2cf267d7650d47389e714776743cd707.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_2cf267d7650d47389e714776743cd707.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_2f793d444a9f4c5697fea293018a8905.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_2f793d444a9f4c5697fea293018a8905.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_3be64afb03454c38a60c9b5ce7fb952f.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_3be64afb03454c38a60c9b5ce7fb952f.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_44161563f1ea40df87c2fc5886d84264.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_44161563f1ea40df87c2fc5886d84264.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_54adaaed42324106b68362cc4ef4ee3c.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_54adaaed42324106b68362cc4ef4ee3c.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_590b97f51b7c49f8a7753cd3a5ed7d9e.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_590b97f51b7c49f8a7753cd3a5ed7d9e.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_5aafaecd7cef4aa3bc24c5b452812ea9.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_5aafaecd7cef4aa3bc24c5b452812ea9.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_5c5bdf1da2c8462a8376e016829aafe9.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_5c5bdf1da2c8462a8376e016829aafe9.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_6106c3273ccd4ac2b8bfbd20bb5c3988.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_6106c3273ccd4ac2b8bfbd20bb5c3988.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_74325e4b949347c58815e1555524087b.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_74325e4b949347c58815e1555524087b.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_7bc95ee3812a471bbb4cca24cc0af4b1.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_7bc95ee3812a471bbb4cca24cc0af4b1.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_80ecfc97f5034829a035690fd015a546.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_80ecfc97f5034829a035690fd015a546.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_86b4de7e334c464d904d745aaf5c6e8a.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_86b4de7e334c464d904d745aaf5c6e8a.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_87836812ddb243389c9e7181dfac77cb.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_87836812ddb243389c9e7181dfac77cb.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_a8a722a9755f45a68f81060f0baa693d.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_a8a722a9755f45a68f81060f0baa693d.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_a9d6cbcd206249539be22d2213c2a471.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_a9d6cbcd206249539be22d2213c2a471.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_afafb77820ab4468b4b3059532d6ec53.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_afafb77820ab4468b4b3059532d6ec53.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_c19753081b75454ebb2f82625ace0521.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_c19753081b75454ebb2f82625ace0521.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_cbdae873cb8744aca5bcc0def1b9143c.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_cbdae873cb8744aca5bcc0def1b9143c.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/NDB_AVIATION_e1f99030f70a4760b365e9ea37ee5f1a.png",
+      "PackagePath": "staticwebassets/images/despesas/NDB_AVIATION_e1f99030f70a4760b365e9ea37ee5f1a.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/despesas/image.png",
+      "PackagePath": "staticwebassets/images/despesas/image.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/doc.gif",
+      "PackagePath": "staticwebassets/images/doc.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/doc2.gif",
+      "PackagePath": "staticwebassets/images/doc2.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/doc3.gif",
+      "PackagePath": "staticwebassets/images/doc3.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/doc4.gif",
+      "PackagePath": "staticwebassets/images/doc4.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/doc5.gif",
+      "PackagePath": "staticwebassets/images/doc5.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/document.gif",
+      "PackagePath": "staticwebassets/images/document.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/error.gif",
+      "PackagePath": "staticwebassets/images/error.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/filme/KY_PLAYER_TV_STREAMING_256143648a614fbfaf780cda1116b402.png",
+      "PackagePath": "staticwebassets/images/filme/KY_PLAYER_TV_STREAMING_256143648a614fbfaf780cda1116b402.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/filme/KY_PLAYER_TV_STREAMING_7d61726348694fc08c962c4f7a47460c.png",
+      "PackagePath": "staticwebassets/images/filme/KY_PLAYER_TV_STREAMING_7d61726348694fc08c962c4f7a47460c.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/filme/KY_PLAYER_TV_STREAMING_82b34cabcdee425bb256262e1157c699.png",
+      "PackagePath": "staticwebassets/images/filme/KY_PLAYER_TV_STREAMING_82b34cabcdee425bb256262e1157c699.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icone/ICONES.png",
+      "PackagePath": "staticwebassets/images/icone/ICONES.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Address-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Address-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Adult talking cell phone-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Adult talking cell phone-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Ambassador-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Ambassador-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Ambassador-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Ambassador-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/App development-bro.png",
+      "PackagePath": "staticwebassets/images/icones/App development-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Button style-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Button style-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Calling-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Calling-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Chat-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Chat-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Choose-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Choose-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Choose-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Choose-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Coding-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Coding-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Devices-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Devices-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Digital lifestyle-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Digital lifestyle-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Digital lifestyle-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Digital lifestyle-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Digital transformation-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Digital transformation-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Features Overview-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Features Overview-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Feed-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Feed-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Finance-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Finance-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Fingerprint-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Fingerprint-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Get in touch-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Get in touch-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Goal-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Goal-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Group Chat-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Group Chat-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Image upload-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Image upload-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Image upload-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Image upload-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Instagram Video Streaming-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Instagram Video Streaming-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Instant information-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Instant information-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Login-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Login-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Mission Impossible-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Mission Impossible-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Mission Impossible-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Mission Impossible-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Mobile apps-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Mobile apps-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Mobile apps-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Mobile apps-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Mobile inbox-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Mobile inbox-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Mobile login-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Mobile login-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/New message-bro.png",
+      "PackagePath": "staticwebassets/images/icones/New message-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Next steps-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Next steps-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Online world-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Online world-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Online-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Online-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Online-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Online-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Opinion-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Opinion-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Plane crash-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Plane crash-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Preferences-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Preferences-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Profile Interface-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Profile Interface-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Push notifications-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Push notifications-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Screenshot 2025-05-02 at 19-16-20 - Teletransporte.png",
+      "PackagePath": "staticwebassets/images/icones/Screenshot 2025-05-02 at 19-16-20 - Teletransporte.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Screenshot 2025-05-02 at 19-16-30 autenticação na plataforma - Gerenciamento de Laudos.png",
+      "PackagePath": "staticwebassets/images/icones/Screenshot 2025-05-02 at 19-16-30 autenticação na plataforma - Gerenciamento de Laudos.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Select-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Select-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Share link-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Share link-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Sharing Ideas-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Sharing Ideas-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Social ideas-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Social ideas-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Social life-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Social life-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Specs-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Specs-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Stranded traveler-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Stranded traveler-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/TELETRANSPORTE.svg",
+      "PackagePath": "staticwebassets/images/icones/TELETRANSPORTE.svg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Texting-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Texting-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Top up credit-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Top up credit-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Upload-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Upload-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Uploading-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Uploading-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Uploading-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Uploading-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Usability testing-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/Usability testing-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Usability testing-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Usability testing-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Voice assistant-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Voice assistant-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Voice control-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Voice control-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Welcome aboard-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Welcome aboard-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Window seat-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Window seat-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Working late-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Working late-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/Yes or no-bro.png",
+      "PackagePath": "staticwebassets/images/icones/Yes or no-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/airport runway-bro copy.png",
+      "PackagePath": "staticwebassets/images/icones/airport runway-bro copy.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/airport runway-bro.png",
+      "PackagePath": "staticwebassets/images/icones/airport runway-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/manipulation-bro(1).png",
+      "PackagePath": "staticwebassets/images/icones/manipulation-bro(1).png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/manipulation-bro.png",
+      "PackagePath": "staticwebassets/images/icones/manipulation-bro.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/icones/plane01.png",
+      "PackagePath": "staticwebassets/images/icones/plane01.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/003.jpeg",
+      "PackagePath": "staticwebassets/images/logo/003.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/004.png",
+      "PackagePath": "staticwebassets/images/logo/004.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/005.png",
+      "PackagePath": "staticwebassets/images/logo/005.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/006.png",
+      "PackagePath": "staticwebassets/images/logo/006.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/01.webp",
+      "PackagePath": "staticwebassets/images/logo/01.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/05.jpeg",
+      "PackagePath": "staticwebassets/images/logo/05.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/1862647.png",
+      "PackagePath": "staticwebassets/images/logo/1862647.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/204-2043088_bag-of-concrete-royalty-free-vector-clip-art.png",
+      "PackagePath": "staticwebassets/images/logo/204-2043088_bag-of-concrete-royalty-free-vector-clip-art.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/345adb3c6f8903d5ac7a6d2f4c806f51-carater-de-cara-de-bracos-cruzados-isometrico.webp",
+      "PackagePath": "staticwebassets/images/logo/345adb3c6f8903d5ac7a6d2f4c806f51-carater-de-cara-de-bracos-cruzados-isometrico.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/357759-icone-de-de-pa-gratis-vetor.jpg",
+      "PackagePath": "staticwebassets/images/logo/357759-icone-de-de-pa-gratis-vetor.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/35f7929ba2d3e0fb4a1d701f8ab32175-mulher-loira-personagem-isometrica.webp",
+      "PackagePath": "staticwebassets/images/logo/35f7929ba2d3e0fb4a1d701f8ab32175-mulher-loira-personagem-isometrica.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/38585cb18c977816c79cb7fb08e929fc-loiro-personagem-isometrico.webp",
+      "PackagePath": "staticwebassets/images/logo/38585cb18c977816c79cb7fb08e929fc-loiro-personagem-isometrico.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/3de16487395813f9b817baf9add623db-personagem-de-cara-feliz-isometrica.webp",
+      "PackagePath": "staticwebassets/images/logo/3de16487395813f9b817baf9add623db-personagem-de-cara-feliz-isometrica.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/4271981-cimento-sacos-pilha-icone-doodle-desenhado-a-mao-ou-esboco-icone-estilo-vetor.jpg",
+      "PackagePath": "staticwebassets/images/logo/4271981-cimento-sacos-pilha-icone-doodle-desenhado-a-mao-ou-esboco-icone-estilo-vetor.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/6ab2b3bc9f9e338cfd4f9ec98ef9d731-carater-do-homem-isometrico.webp",
+      "PackagePath": "staticwebassets/images/logo/6ab2b3bc9f9e338cfd4f9ec98ef9d731-carater-do-homem-isometrico.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/70b4899b5125c7f9d410e2aaa82f1b6fthrt.jpg",
+      "PackagePath": "staticwebassets/images/logo/70b4899b5125c7f9d410e2aaa82f1b6fthrt.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/7225350797517619efa03fe9dea3a5ba-homem-loiro-cumprimentando-personagem-isometrica.webp",
+      "PackagePath": "staticwebassets/images/logo/7225350797517619efa03fe9dea3a5ba-homem-loiro-cumprimentando-personagem-isometrica.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/8d4c06a1a3bdbc55b54d73c5768ea804-personagem-de-rabo-de-cavalo-isometrico.webp",
+      "PackagePath": "staticwebassets/images/logo/8d4c06a1a3bdbc55b54d73c5768ea804-personagem-de-rabo-de-cavalo-isometrico.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/8f8033dd16dcde563b2871e2ac283c48-menina-tablet-personagem-isometrica.webp",
+      "PackagePath": "staticwebassets/images/logo/8f8033dd16dcde563b2871e2ac283c48-menina-tablet-personagem-isometrica.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/NDB.jpg",
+      "PackagePath": "staticwebassets/images/logo/NDB.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/NDBLOGO.png",
+      "PackagePath": "staticwebassets/images/logo/NDBLOGO.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Plane02.png",
+      "PackagePath": "staticwebassets/images/logo/Plane02.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Screenshot 2025-08-15 at 17-59-42 - KYPLAYER STREAM TV.png",
+      "PackagePath": "staticwebassets/images/logo/Screenshot 2025-08-15 at 17-59-42 - KYPLAYER STREAM TV.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Screenshot 2025-08-15 at 17-59-54 KYPLAYER STREAMING TV - GERENCIAMENTO.png",
+      "PackagePath": "staticwebassets/images/logo/Screenshot 2025-08-15 at 17-59-54 KYPLAYER STREAMING TV - GERENCIAMENTO.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Screenshot 2025-08-15 at 18-00-35 autenticação na plataforma - GERENCIAMENTO.png",
+      "PackagePath": "staticwebassets/images/logo/Screenshot 2025-08-15 at 18-00-35 autenticação na plataforma - GERENCIAMENTO.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Screenshot 2025-08-15 at 19-22-47 autenticação na plataforma - GERENCIAMENTO.png",
+      "PackagePath": "staticwebassets/images/logo/Screenshot 2025-08-15 at 19-22-47 autenticação na plataforma - GERENCIAMENTO.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Screenshot 2025-08-15 at 19-22-59 - KYPLAYER STREAM TV.png",
+      "PackagePath": "staticwebassets/images/logo/Screenshot 2025-08-15 at 19-22-59 - KYPLAYER STREAM TV.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Untitled.jpeg",
+      "PackagePath": "staticwebassets/images/logo/Untitled.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Untitled.png",
+      "PackagePath": "staticwebassets/images/logo/Untitled.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/Untitledwefwfe.jpeg",
+      "PackagePath": "staticwebassets/images/logo/Untitledwefwfe.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/b32e2d22dbba1798f692bd8918f67890-personagem-de-tablet-masculino-isometrico.webp",
+      "PackagePath": "staticwebassets/images/logo/b32e2d22dbba1798f692bd8918f67890-personagem-de-tablet-masculino-isometrico.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/b3c07d1103582e60b803f8f5fc958bdbthhtr.jpg",
+      "PackagePath": "staticwebassets/images/logo/b3c07d1103582e60b803f8f5fc958bdbthhtr.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/backlogin.png",
+      "PackagePath": "staticwebassets/images/logo/backlogin.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/backlogin2.png",
+      "PackagePath": "staticwebassets/images/logo/backlogin2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/d5db10a21903a6009e1bb83072eeef9a-homem-cumprimentando-personagem-isometrico.webp",
+      "PackagePath": "staticwebassets/images/logo/d5db10a21903a6009e1bb83072eeef9a-homem-cumprimentando-personagem-isometrico.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/dark.png",
+      "PackagePath": "staticwebassets/images/logo/dark.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/depositphotos_330650626-stock-photo-photo-of-two-funny-guy.webp",
+      "PackagePath": "staticwebassets/images/logo/depositphotos_330650626-stock-photo-photo-of-two-funny-guy.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/duvidas.png",
+      "PackagePath": "staticwebassets/images/logo/duvidas.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/efwef.webp",
+      "PackagePath": "staticwebassets/images/logo/efwef.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/feefw.jpeg",
+      "PackagePath": "staticwebassets/images/logo/feefw.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/ff.png",
+      "PackagePath": "staticwebassets/images/logo/ff.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/identy.png",
+      "PackagePath": "staticwebassets/images/logo/identy.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/images.jpeg",
+      "PackagePath": "staticwebassets/images/logo/images.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/images.png",
+      "PackagePath": "staticwebassets/images/logo/images.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesefw.png",
+      "PackagePath": "staticwebassets/images/logo/imagesefw.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesefwef.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imagesefwef.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesergegr.png",
+      "PackagePath": "staticwebassets/images/logo/imagesergegr.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesergerge.png",
+      "PackagePath": "staticwebassets/images/logo/imagesergerge.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesertt.png",
+      "PackagePath": "staticwebassets/images/logo/imagesertt.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesff.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imagesff.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesfff.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imagesfff.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesffff.png",
+      "PackagePath": "staticwebassets/images/logo/imagesffff.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesggg.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imagesggg.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesgggh.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imagesgggh.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imageshyjhy.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imageshyjhy.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesregerg.png",
+      "PackagePath": "staticwebassets/images/logo/imagesregerg.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesregreg.png",
+      "PackagePath": "staticwebassets/images/logo/imagesregreg.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesrgegr.png",
+      "PackagePath": "staticwebassets/images/logo/imagesrgegr.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesrgerg.png",
+      "PackagePath": "staticwebassets/images/logo/imagesrgerg.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesrgt.png",
+      "PackagePath": "staticwebassets/images/logo/imagesrgt.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagesthrth.png",
+      "PackagePath": "staticwebassets/images/logo/imagesthrth.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imagestrhrht.png",
+      "PackagePath": "staticwebassets/images/logo/imagestrhrht.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imageswefe.png",
+      "PackagePath": "staticwebassets/images/logo/imageswefe.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/imageswfeef.jpeg",
+      "PackagePath": "staticwebassets/images/logo/imageswfeef.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/kyplayer.png",
+      "PackagePath": "staticwebassets/images/logo/kyplayer.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/kyplayer2.png",
+      "PackagePath": "staticwebassets/images/logo/kyplayer2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/login.png",
+      "PackagePath": "staticwebassets/images/logo/login.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/logo.png",
+      "PackagePath": "staticwebassets/images/logo/logo.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/map.png",
+      "PackagePath": "staticwebassets/images/logo/map.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/photo_66c5f525d1dae.jpg.webp",
+      "PackagePath": "staticwebassets/images/logo/photo_66c5f525d1dae.jpg.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/rger.jpeg",
+      "PackagePath": "staticwebassets/images/logo/rger.jpeg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/rth.jpg",
+      "PackagePath": "staticwebassets/images/logo/rth.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/send.png",
+      "PackagePath": "staticwebassets/images/logo/send.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/sendnotifications.png",
+      "PackagePath": "staticwebassets/images/logo/sendnotifications.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/sends.png",
+      "PackagePath": "staticwebassets/images/logo/sends.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/share-notification-icon-cartoon-vector.jpg",
+      "PackagePath": "staticwebassets/images/logo/share-notification-icon-cartoon-vector.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/thtrh.png",
+      "PackagePath": "staticwebassets/images/logo/thtrh.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/unnamed.jpg",
+      "PackagePath": "staticwebassets/images/logo/unnamed.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/wef.png",
+      "PackagePath": "staticwebassets/images/logo/wef.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/wefewf.webp",
+      "PackagePath": "staticwebassets/images/logo/wefewf.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/logo/wefwef.webp",
+      "PackagePath": "staticwebassets/images/logo/wefwef.webp"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/map/tv.png",
+      "PackagePath": "staticwebassets/images/map/tv.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/map/tv2.png",
+      "PackagePath": "staticwebassets/images/map/tv2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_06001dde5065452e887b870cfe836c4e.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_06001dde5065452e887b870cfe836c4e.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_06f427b0bd17427fbf5ccc8b5d34042d.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_06f427b0bd17427fbf5ccc8b5d34042d.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_1be6fb613cc24dcfb6ef1039bbf148bd.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_1be6fb613cc24dcfb6ef1039bbf148bd.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_21f67b50bc874958b83353373082a7aa.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_21f67b50bc874958b83353373082a7aa.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_253a45a54243414f9dbb50d7d59b7ac1.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_253a45a54243414f9dbb50d7d59b7ac1.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_25d5f432a5b44efebf9b6418e659b0d0.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_25d5f432a5b44efebf9b6418e659b0d0.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_36062f1c3d60413793ba7cc3e9582c32.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_36062f1c3d60413793ba7cc3e9582c32.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_47c24bf2e3d14c9091a339ae285d03ef.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_47c24bf2e3d14c9091a339ae285d03ef.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_9919bd450a0e415cb5c067ff127986c6.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_9919bd450a0e415cb5c067ff127986c6.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_99f6e89be1dd432bb3e808daebd61a7e.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_99f6e89be1dd432bb3e808daebd61a7e.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_9e46ae370f734ac89f3324fbc397f6bb.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_9e46ae370f734ac89f3324fbc397f6bb.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_a7125f1026ed40658f255898242b0633.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_a7125f1026ed40658f255898242b0633.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_caeccb7f0ec34886ba74cd0ff4df7945.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_caeccb7f0ec34886ba74cd0ff4df7945.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_f3675d8ae7104645bea535a3c05468e9.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_f3675d8ae7104645bea535a3c05468e9.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/mensalidade/KY_PLAYER_TV_STREAMING_f661a5015ecf4739b3fa77e5f92aafdc.png",
+      "PackagePath": "staticwebassets/images/mensalidade/KY_PLAYER_TV_STREAMING_f661a5015ecf4739b3fa77e5f92aafdc.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/menu.gif",
+      "PackagePath": "staticwebassets/images/menu.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/menu.png",
+      "PackagePath": "staticwebassets/images/menu.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/pdfLoading.gif",
+      "PackagePath": "staticwebassets/images/pdfLoading.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/pdfLoading2.gif",
+      "PackagePath": "staticwebassets/images/pdfLoading2.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/pie-chart.png",
+      "PackagePath": "staticwebassets/images/pie-chart.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_018e40bedfb24c7eb01c698f43f93bcd.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_018e40bedfb24c7eb01c698f43f93bcd.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_0c4ec0770305442d8e4d25b14844632e.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_0c4ec0770305442d8e4d25b14844632e.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_0c8daca96c7b41ccbdedbb5ee9ae98f1.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_0c8daca96c7b41ccbdedbb5ee9ae98f1.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_0feb923bb6f74899a72b4460d13ef8e2.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_0feb923bb6f74899a72b4460d13ef8e2.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_148b7e8009404efabe57c235cab41846.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_148b7e8009404efabe57c235cab41846.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_1b5baabc362a43bbb886669e3604e58d.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_1b5baabc362a43bbb886669e3604e58d.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_2220c5e77440436abee59fac036ee9de.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_2220c5e77440436abee59fac036ee9de.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_2493a8eaf9d547db87f9c7fdbdba7d06.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_2493a8eaf9d547db87f9c7fdbdba7d06.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_31fd8d13574a4154a69f6768eb57ad12.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_31fd8d13574a4154a69f6768eb57ad12.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_3c0c60680098489998993429e865abb6.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_3c0c60680098489998993429e865abb6.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_4a77159f6958463eae02dc0025625531.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_4a77159f6958463eae02dc0025625531.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_57f5b99b92364ed39056d1abd123d0ac.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_57f5b99b92364ed39056d1abd123d0ac.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_7b53877c169b4466917a3f8efc5401a4.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_7b53877c169b4466917a3f8efc5401a4.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_9506cf58d954457abdb3bb85d73374dd.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_9506cf58d954457abdb3bb85d73374dd.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_956ab6f64109434396904fedfa1edb75.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_956ab6f64109434396904fedfa1edb75.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_972b365a19af459ba26c2ed972e5e04f.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_972b365a19af459ba26c2ed972e5e04f.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_9b3c8b802d344bbfaa274eb4a68d7827.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_9b3c8b802d344bbfaa274eb4a68d7827.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_9f9b36dc90ec425d921b445c33983f4b.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_9f9b36dc90ec425d921b445c33983f4b.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_a161c99f73c344bf8affe4d7385cdef9.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_a161c99f73c344bf8affe4d7385cdef9.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_a72eef37d3b54105ade4080a78156aa4.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_a72eef37d3b54105ade4080a78156aa4.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_a7685428b8344e66bd78b147e2c27081.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_a7685428b8344e66bd78b147e2c27081.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_a8b6d769327349a4b5e2b1232ad5a8db.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_a8b6d769327349a4b5e2b1232ad5a8db.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_b555f76783a54c4c9015a09b5a3d5d28.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_b555f76783a54c4c9015a09b5a3d5d28.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_bafa6c03894743e08670f528cad69906.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_bafa6c03894743e08670f528cad69906.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_bb087cb9646f477a99230d5fe95169f7.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_bb087cb9646f477a99230d5fe95169f7.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_cc5f1b15507f425bb341b9e58bd37aa6.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_cc5f1b15507f425bb341b9e58bd37aa6.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_cd9795ad1aad46c7a8f4f5310b003420.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_cd9795ad1aad46c7a8f4f5310b003420.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_dcd6853eaa144d6094ad2a3910959c2b.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_dcd6853eaa144d6094ad2a3910959c2b.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_e760246dcd074bebbd5123e427e72eae.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_e760246dcd074bebbd5123e427e72eae.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_fc4ff247710040f4a832c3a429087648.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_fc4ff247710040f4a832c3a429087648.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_fc9ea1d68b6140acb9ce4bfacc363d40.png",
+      "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_fc9ea1d68b6140acb9ce4bfacc363d40.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/search.gif",
+      "PackagePath": "staticwebassets/images/search.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/serie/KY_PLAYER_TV_STREAMING_1d7adedcc56746e28338267b4a16dc0f.png",
+      "PackagePath": "staticwebassets/images/serie/KY_PLAYER_TV_STREAMING_1d7adedcc56746e28338267b4a16dc0f.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/serie/KY_PLAYER_TV_STREAMING_3d174848bc8245e0a0de53e9046e6877.png",
+      "PackagePath": "staticwebassets/images/serie/KY_PLAYER_TV_STREAMING_3d174848bc8245e0a0de53e9046e6877.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/serie/KY_PLAYER_TV_STREAMING_b478ac4fd8f74c5b90089d19fada4f88.png",
+      "PackagePath": "staticwebassets/images/serie/KY_PLAYER_TV_STREAMING_b478ac4fd8f74c5b90089d19fada4f88.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/serie/KY_PLAYER_TV_STREAMING_bae4aced8db94344b31a3c0efd7f4b8d.png",
+      "PackagePath": "staticwebassets/images/serie/KY_PLAYER_TV_STREAMING_bae4aced8db94344b31a3c0efd7f4b8d.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/streamer.png",
+      "PackagePath": "staticwebassets/images/streamer.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/streamer2.gif",
+      "PackagePath": "staticwebassets/images/streamer2.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/trash.gif",
+      "PackagePath": "staticwebassets/images/trash.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/tv/16640.jpg",
+      "PackagePath": "staticwebassets/images/tv/16640.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/tv/8458812_3890770.jpg",
+      "PackagePath": "staticwebassets/images/tv/8458812_3890770.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/tv/8514061_3922519.jpg",
+      "PackagePath": "staticwebassets/images/tv/8514061_3922519.jpg"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/tv/Duvida.png",
+      "PackagePath": "staticwebassets/images/tv/Duvida.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/tv/Error.png",
+      "PackagePath": "staticwebassets/images/tv/Error.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/tv/Search.png",
+      "PackagePath": "staticwebassets/images/tv/Search.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/us.png",
+      "PackagePath": "staticwebassets/images/us.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users.gif",
+      "PackagePath": "staticwebassets/images/users.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_27d39d7b96dc444f993a453412acdd84@PedroMiguel.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_27d39d7b96dc444f993a453412acdd84@PedroMiguel.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_2fa04d6e2b8d4db78d94733edb1aa892@PedroMiguel.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_2fa04d6e2b8d4db78d94733edb1aa892@PedroMiguel.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_5f5fbed9261048678a6e96fc951acae2@Cleonildo.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_5f5fbed9261048678a6e96fc951acae2@Cleonildo.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_912f98ef373f4f85af56200e4ffc651f@PedroMiguel.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_912f98ef373f4f85af56200e4ffc651f@PedroMiguel.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_9c80a9a4ba4642c1898045d3c4f3b789@PedroMiguel.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_9c80a9a4ba4642c1898045d3c4f3b789@PedroMiguel.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_b140cf17f7754e43a711b6e0a50d6267@PedroMiguel.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_b140cf17f7754e43a711b6e0a50d6267@PedroMiguel.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/KY_PLAYER_TV_STREAMING_e9b33e3d29084fa5aa5f54b75248f279@Jhon.png",
+      "PackagePath": "staticwebassets/images/users/KY_PLAYER_TV_STREAMING_e9b33e3d29084fa5aa5f54b75248f279@Jhon.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/NDB_AVIATION_4afcc5e8959b455ab07786402a996253@gleisonsilveira.png",
+      "PackagePath": "staticwebassets/images/users/NDB_AVIATION_4afcc5e8959b455ab07786402a996253@gleisonsilveira.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/NDB_AVIATION_b63f7889bd8f410e9c7ee71fd626c9a3@gleisonsilveira.png",
+      "PackagePath": "staticwebassets/images/users/NDB_AVIATION_b63f7889bd8f410e9c7ee71fd626c9a3@gleisonsilveira.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/NDB_AVIATION_bfde67a115c2468bbb80091fd68975d9@gleisonsilveira.png",
+      "PackagePath": "staticwebassets/images/users/NDB_AVIATION_bfde67a115c2468bbb80091fd68975d9@gleisonsilveira.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/PALACIO_GARIBALDI_669ef26d024a485a910b997220c6eae8@gleison_silveira.png",
+      "PackagePath": "staticwebassets/images/users/PALACIO_GARIBALDI_669ef26d024a485a910b997220c6eae8@gleison_silveira.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/PALACIO_GARIBALDI_a2991b09ab2e4df3920ec9f7a3351e0a@gleison_silveira.png",
+      "PackagePath": "staticwebassets/images/users/PALACIO_GARIBALDI_a2991b09ab2e4df3920ec9f7a3351e0a@gleison_silveira.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/users/PALACIO_GARIBALDI_ef26495e99da4f0c92fa6189d96ad2d7@gleison_silveira.png",
+      "PackagePath": "staticwebassets/images/users/PALACIO_GARIBALDI_ef26495e99da4f0c92fa6189d96ad2d7@gleison_silveira.png"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/userss.gif",
+      "PackagePath": "staticwebassets/images/userss.gif"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/dateToday.js",
+      "PackagePath": "staticwebassets/js/dateToday.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/excellentexport.js",
+      "PackagePath": "staticwebassets/js/excellentexport.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/excellentexport.min.js",
+      "PackagePath": "staticwebassets/js/excellentexport.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/graph.js",
+      "PackagePath": "staticwebassets/js/graph.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/hideDIVCERTAINTIME.js",
+      "PackagePath": "staticwebassets/js/hideDIVCERTAINTIME.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/imagem.js",
+      "PackagePath": "staticwebassets/js/imagem.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/iptv.js",
+      "PackagePath": "staticwebassets/js/iptv.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/loginShow.js",
+      "PackagePath": "staticwebassets/js/loginShow.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/onlyNumber.js",
+      "PackagePath": "staticwebassets/js/onlyNumber.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/pageNotReload.js",
+      "PackagePath": "staticwebassets/js/pageNotReload.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/pass.js",
+      "PackagePath": "staticwebassets/js/pass.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/savetext.js",
+      "PackagePath": "staticwebassets/js/savetext.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/showHideDiv.js",
+      "PackagePath": "staticwebassets/js/showHideDiv.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/showPop.js",
+      "PackagePath": "staticwebassets/js/showPop.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/slider.js",
+      "PackagePath": "staticwebassets/js/slider.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/js/website.js",
+      "PackagePath": "staticwebassets/js/website.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/site.webmanifest",
+      "PackagePath": "staticwebassets/site.webmanifest"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.sistema.props",
+      "PackagePath": "build\\sistema.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.sistema.props",
+      "PackagePath": "buildMultiTargeting\\sistema.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.sistema.props",
+      "PackagePath": "buildTransitive\\sistema.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.sistema.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

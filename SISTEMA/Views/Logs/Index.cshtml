@@ -1,0 +1,150 @@
+﻿@model IEnumerable<sistema.Models.Logs>
+
+@{
+    ViewData["Title"] = "LOGS";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>    
+
+
+<div id="caixas">
+         <form action=""       id="form">
+
+         <select id="SearchOneItemOneContenteSearchFULL" name="Search" asp-items="ViewBag.HOSTNAME" >
+                <option value=" ">Pesquisar pelo Hostname/Provider</option>
+         </select>      
+         <button type="submit" id="button_search_cadastro_DEPESAS">Pesquisar</button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Identificacao/Index">Analise Usuários</a></button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Home/Grafico">Analise Gráfico</a></button>
+         </form>        
+</div>        
+
+
+
+
+<span id="SEND">Faça Pesquisas Relacionadas a Informação do Sistema</span>
+
+    <div class="content" id="GRAFICOS">
+        <div class="cards">
+
+
+            <div class="card">
+                <div class="card-left">
+                    <div class="card-icon icon-two">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-top-info">
+                        <h2>Logs</h2>
+                        <h4>@ViewBag.TOTAL Unid.</h4>
+                    </div>
+    
+                </div>
+            
+    
+
+    </div>
+    </div>
+</div>    
+
+
+
+<span id="SEND">Informações para os Logs</span>
+<div id="IDTABELAS">
+
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Hostname</th>
+                                    <th><span class="las la-sort"></span>Data</th>                                  
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+          
+
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.hostname)
+                                    </td> 
+  
+                         
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>  
+                                   
+                            
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th><span class="las la-sort"></span>Hostname</th>
+                                    <th><span class="las la-sort"></span>Data</th>                                  
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.hostname)
+                                    </td> 
+  
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>  
+                                   
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+
+
+  }
+}
+</div>
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="batocera-36-pc-64-bits-320-gb-by-clebinho_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>fb45d9f4f3160dee5f07fabdb0e5f1fc</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="batocera-36-pc-64-bits-320-gb-by-clebinho_meta.sqlite" source="original">
+    <mtime>1722966603</mtime>
+    <size>36864</size>
+    <md5>bb7b45bcc0fec91e55b79a3e87410039</md5>
+    <crc32>1ef19fcf</crc32>
+    <sha1>1c2f7b5adcc156d9c5a721dd534c388f7d9c3b0d</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="batocera-36-pc-64-bits-320-gb-by-clebinho_meta.xml" source="original">
+    <mtime>1722966607</mtime>
+    <size>3595</size>
+    <md5>a2815c5393ea321ce79605579bbcb95a</md5>
+    <crc32>b4899a0f</crc32>
+    <sha1>c7b59f28395958d4d63fa4e6c0eb149f5f1070a2</sha1>
+    <format>Metadata</format>
+  </file>
+</files>

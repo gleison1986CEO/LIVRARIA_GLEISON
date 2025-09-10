@@ -1,0 +1,98 @@
+﻿@model sistema.Models.Dispositivo
+
+@{
+    ViewData["Title"] = "DISPOSITIVO";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+    
+<div class="row" id="formularios">
+    @{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Titulo.cshtml"); }
+    <div class="col-md-12">
+        <form asp-action="Novo" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="hashcode"  class="form-control" value="0" readonly="true"/>
+            <input type="hidden" asp-for="data"  class="form-control" value="0" readonly="true"/>
+            <input asp-for="date"  type="hidden" id="theDate" required/>
+            
+            <span id="SEND">Cadastro de um Dispositivo</span>
+
+
+            <div id="DADOS">
+                    <p id="TEXTDURATION">Email do Cliente</p>
+                       
+                    <div class="form-group">
+                            <select asp-for="nome"  id="InputItemOne" required asp-items="ViewBag.HOSTNAME" required>
+                                <option>Escolha O Usuario</option>
+                            </select>
+                    </div>                                     
+            </div>        
+
+
+            <div id="DADOS">
+                    <p id="TEXTDURATION">Dados do Dispositivo</p>
+                        <div class="form-group">
+                
+                            <input asp-for="url" id="InputItemOne"   class="form-control" placeholder="ex: URL http ou https " required/>
+                            <span asp-validation-for="url" class="text-danger"></span>
+
+                        </div>    
+                        <div class="form-group">
+                
+                            <input asp-for="id" id="InputItemOne"   class="form-control" placeholder="ex: ID " required/>
+                            <span asp-validation-for="id" class="text-danger"></span>
+
+                        </div>     
+                        
+                        <div class="form-group">
+                
+                            <input asp-for="nome" id="InputItemOne"   class="form-control" placeholder="ex: Nome do Aparelho" required/>
+                            <span asp-validation-for="nome" class="text-danger"></span>
+
+                        </div>     
+
+                        <div class="form-group">
+                
+                            <input asp-for="chave" id="InputItemOne"   class="form-control" placeholder="ex: Key/Chave do Aparelho" required/>
+                            <span asp-validation-for="chave" class="text-danger"></span>
+
+                        </div> 
+  
+                        <div class="form-group">
+                
+                            <input asp-for="description" id="InputItemOne"   class="form-control" placeholder="ex: Descrição do aparelho" required/>
+                            <span asp-validation-for="description" class="text-danger"></span>
+
+                        </div>                                                                                        
+                                                                      
+            </div>  
+
+
+
+            <div class="form-group form-check">
+                <label class="switch">
+                    <input type="checkbox" asp-for="Ativo" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span id="SEND">Escolha ativo/inativo</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="CADASTRAR" id="btn" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

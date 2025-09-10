@@ -1,0 +1,144 @@
+﻿@model sistema.Models.Usuario
+
+@{
+    ViewData["Title"] = "USUARIO:::";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row" id="formularios">
+    @{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Titulo.cshtml"); }
+    <div class="col-md-12">
+        <center><p  id="IconsCards"> <i class="fas fa-users" id="Icons"aria-hidden="true"></i></p></center>
+        <p id="region"><i class="fa fa-globe" aria-hidden="true"></i>  USUÁRIO NDB</p>
+
+        <form asp-action="NovoUsuario" enctype="multipart/form-data">
+        
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+
+            <div id="ativo" class="form-group">
+                <input asp-for="hashcode" class="form-control" placeholder="hashcode" value="0000000"/>
+            </div>
+
+
+            <div class="form-group">
+                    <input asp-for="foto" type="file" class="form-control" />
+                    <span asp-validation-for="foto" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+    
+                <input asp-for="nome" id="InputItemOne"class="form-control" placeholder="ex: Nome do usuário"/>
+                <span asp-validation-for="nome" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="sobrenome" id="InputItemOne"class="form-control" placeholder="ex: SobreNome do usuário"/>
+                <span asp-validation-for="sobrenome" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="telefone" onkeypress="return allowOnlyNumbers(event)" pattern="[0-9]*" type="number" id="InputItemOne" class="form-control" placeholder="ex:Digite o Whatsapp"/>
+                <span asp-validation-for="telefone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+    
+                <input asp-for="bio"id="InputItemOne" class="form-control" placeholder="ex: Biografia do usuário"/>
+                <span asp-validation-for="bio" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="website" id="InputItemOne"class="form-control" placeholder="ex: WebSite do usuário"/>
+                <span asp-validation-for="website" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="username" id="InputItemOne"class="form-control" placeholder="ex:  Username do usuário"/>
+                <span asp-validation-for="username" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="email"id="InputItemOne" class="form-control" placeholder="ex:  Email do usuário"/>
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="senha" id="InputItemOne"class="form-control" placeholder="ex:  Senha do usuário"/>
+                <span asp-validation-for="senha" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+    
+                <input asp-for="perfil" id="InputItemOne"class="form-control" placeholder="ex: Documento do Usuario"/>
+                <span asp-validation-for="perfil" class="text-danger"></span>
+            </div>
+
+            
+             <div class="form-group">
+                    <select asp-for="estado"  id="InputItemOne" required asp-items="ViewBag.estado" required>
+                         <option>Escolha o Estado</option>
+                    </select>
+            </div>
+
+            
+            <div class="form-group">
+                    <select asp-for="cidade"  id="InputItemOne" required asp-items="ViewBag.cidade" required>
+                         <option>Escolha a Cidade</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                    <select asp-for="local"  id="InputItemOne" required asp-items="ViewBag.local" required>
+                         <option>Escolha o Local</option>
+                    </select>
+            </div>    
+            <div class="form-group">
+                    <select asp-for="sexos"  id="InputItemOne" required asp-items="ViewBag.sexos" required>
+                         <option>Escolha o Sexo</option>
+                    </select>
+            </div>
+
+                <div class="form-group form-check">
+                    <label class="switch">
+                        <input type="checkbox" asp-for="Ativo" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+            <div class="form-group">
+                <input type="submit" value="CADASTRAR" id="btn" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

@@ -1,0 +1,154 @@
+@model IEnumerable<sistema.Models.Identificacao>
+
+@{
+    ViewData["Title"] = "DARK GAME";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+
+
+         <div class="content" id="GRAFICOS">
+            <div class="cards">
+
+
+
+
+
+                    <div class="card">
+           
+                    <div class="card-right">
+                        <div class="card-top-info">
+                            <h6>A EMPRESA</h6>
+                            <h6>A KIYPLAYER Streaming Video é uma plataforma inovadora de transmissão de vídeos sob demanda, oferecendo conteúdos variados para todos os gostos. Com uma interface intuitiva e moderna, proporciona uma experiência de entretenimento acessível e de alta qualidade. A empresa se destaca pela constante atualização de seu catálogo e pelo compromisso com a satisfação do usuário.</h6>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="card">
+          
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h6>ARESTFULL</h6>
+                            <h6>A API RESTful em C# permite a criação de serviços web robustos e escaláveis usando o framework ASP.NET. Ela segue os princípios REST, facilitando a comunicação entre sistemas por meio de requisições HTTP. Ideal para integrações modernas, é amplamente usada em aplicações web e mobile.</h6>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="card">
+             
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h6>MICRO-SERVIÇO</h6>
+                            <h6>Micro-serviços em Python permitem o desenvolvimento de aplicações distribuídas, onde cada serviço é independente e focado em uma única função. Utilizando frameworks como Flask ou FastAPI, é possível criar APIs leves e eficientes. Essa abordagem facilita a escalabilidade, manutenção e o desenvolvimento contínuo de sistemas complexos.</h6>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+   
+
+
+
+   
+                <div class="card">
+              
+                    <div class="card-right">
+                        <div class="card-top-info">
+                            <h6>AGILIDADE</h6>
+                            <h6>A KIYPLAYER se destaca pela eficiência e agilidade no streaming de vídeo, garantindo carregamento rápido e reprodução sem interrupções. </h6>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="card">
+               
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h6>ESCALABILIDADE</h6>
+                            <h6>Os servidores de streaming da KIYPLAYER são projetados com alta escalabilidade, suportando grande volume de acessos simultâneos sem perda de desempenho.  </h6>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="card">
+               
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h6>CONFIABILIDADE</h6>
+                            <h6>A KIYPLAYER prioriza segurança e confiabilidade em seus servidores de streaming, utilizando criptografia avançada e protocolos de proteção de dados.</h6>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+
+
+
+   
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-one">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-top-info">
+                            <h4>DOTNET</h4>
+                            <h6>Dotnet8 & Dotnet9</h6>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h4>FLUTTER</h4>
+                            <h6>Flutter3.32</h6>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h4>PYTHON</h4>
+                            <h6>Python3.12</h6>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+
+

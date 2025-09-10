@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "DARK GAMEs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+    <div id="home">
+    <center>
+    <img id="img_2"src="~/images/doc4.gif" />                   
+    </center>
+        <center>
+
+        @if (this.User.IsInRole("Administrador")){
+             <p id="text_front_Login"><a id="link_" href="/Admin">  Gerenciamento de Usuários</a> </p>
+             <p id="text_front_Login"><a id="link_" href="/Role">   Gerenciamento de Permissões</a> </p>
+             <!-- <p id="text_front_Login"><a id="link_" href="/Claims">  Permissões em diretórios</a> </p> -->
+        }else{
+          <span id="delete_text_middle" style="color:black !important;">Esta área é apenas para administradores do sistema WITT</span>
+        }
+             
+        <span id="delete_text_middle" style="color:black !important;">plataforma para gerenciamento de laudos técnicos | LTDA WITT ADVOCACIA E CONSULTORIA 2024</span>
+        </center>
+    </div>
+   
+
+}
+else{
+
+  <div id="acessoNegado">
+    <p>Você não tem permissão de acesso a esta página!</p>
+    <p>Porfavor contate um administrador</p>
+  </div>
+
+}

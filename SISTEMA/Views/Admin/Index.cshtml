@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AppUser>
+@{
+    ViewData["Title"] = "usuários - witt advocacia";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+
+<div class="row">
+@foreach (AppUser user in Model) {
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>ID</th>
+                                    <th><span class="las la-sort"></span>Email</th>
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   
+                                    
+                                    <td>
+                                        @user.Id
+                                    </td>
+
+                                    <td>
+                                        @user.Email
+                                    </td> 
+
+                                    <td>
+                                          <a  id="cardItem" asp-action="Update" asp-route-id="@user.Id">
+                                               <i class="fas fa-edit" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+                                          
+                                    </td>                                                                     
+                                   
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+
+}
+</div>
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Users.cshtml"); }

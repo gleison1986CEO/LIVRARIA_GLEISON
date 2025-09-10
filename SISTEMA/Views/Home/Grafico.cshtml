@@ -1,0 +1,312 @@
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+
+         <div class="content" id="GRAFICOS">
+            <div class="cards">     
+@if (this.User.IsInRole("Administrador"))
+
+                {
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-ghost"></i>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Produtos</h2>
+                            <h6><a asp-controller="Produto" asp-action="Index" id="SUPERLINKS"  >  VER TODOS </a> </h6>
+                        </div>
+     
+                    </div>
+                </div>
+               
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-dice-d6"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Categorias</h2>
+                            <h6><a asp-controller="Categoria" asp-action="Index" id="SUPERLINKS"  >  VER TODOS </a> </h6>
+                        </div>
+     
+                      
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Financeiro</h2>
+                            <h6><a asp-controller="Financeiro" asp-action="Index" id="SUPERLINKS"  >  VER TODOS </a> </h6>
+                        </div>
+     
+                    </div>
+                </div>
+
+                }
+
+
+
+
+
+@if (this.User.IsInRole("Revenda"))
+
+                {
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Taxa R$: @ViewBag.CREDITOUNIDADE,00</h2>
+                            <h6>Valor de crédito cobrado pela plataforma.</h6>
+                        </div>
+     
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-address-book"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Meus Cliente</h2>
+                            <h4>@ViewBag.CLIENTETOTALREVENDA (Unid.)</h4>
+                        </div>
+     
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Valor Depositado</h2>
+                            <h4>R$: @ViewBag.CARTEIRA,00</h4>
+                        </div>
+     
+                      
+                    </div>
+                </div>
+                }
+
+
+
+
+
+
+
+
+
+@if (this.User.IsInRole("Administrador"))
+{
+
+
+
+                <div class="card card-graph">
+                    <div class="text">
+                        <div class="gray-text">Usuários(Tempo Real)</div>
+                        <div class="card-top-info">
+                            <h4>Online/Offline</h4>
+                        </div>
+                        <div class="card-bottom-info">
+                            <i class="fas fa-angle-up text-success"></i>
+                            <span class="text-success">@ViewBag.IDENTIFICACAOTRUE</span>
+                        </div>
+                        <div class="card-bottom-info">
+                            <i class="fas fa-angle-up text-success"></i>
+                            <span class="text-success">@ViewBag.IDENTIFICACAOFALSE</span>
+                        </div>
+                    </div>
+                    <div class="graph">
+                        <div id="piechart" style="width:100%; height: 100%;" class="chart"></div>
+                    </div>
+
+                </div>                
+}
+ 
+                
+            </div>
+        </div>
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Publicar.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+
+
+
+
+
+@if (this.User.IsInRole("Administrador"))
+{
+
+    @section Scripts{
+        <script>  
+        google.load("visualization", {packages:["corechart"]});
+        google.setOnLoadCallback(drawChart1);
+        function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+            ['ASSINATURAS', 'ASSINATURA DE CLIENTES',],
+            ['CLIENTE',    @ViewBag.TOTALASSINATURA]
+        ]);
+
+        var options = {
+            chartArea:{left:20,top:20,width:'100%',height:'80%'},
+            colors: ["#7308ff" ,"#000000" , "#230569","#008040" ,"#000000"],
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
+        chart.draw(data, options);
+        }
+
+
+
+
+
+        // -------------------graph 2-------------------------
+
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart2);
+
+        function drawChart2() {
+
+        var data = google.visualization.arrayToDataTable([
+            ['CONEXÕES', 'ANÁLISE DE DNS'],
+            ['PAGO',  @ViewBag.DNSPAGO],
+            ['GRATIS',  @ViewBag.DNSGRATIS]
+        ]);
+
+        var options = {
+            colors: ["#7308ff" ,"#000000" , "#230569"],
+            legend: {postion: "right",textStyle: {color: 'rgb(74, 80, 115)', fontSize:12}},
+            chartArea:{left:100,top:0,width:'100%',height:'100%'},
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div2'));
+
+        chart.draw(data, options);
+        };
+
+        // -------------------graph 3-------------------------
+
+        google.charts.load("current",{ packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart3);
+
+        function drawChart3() {
+
+        var data = google.visualization.arrayToDataTable([
+            ['ORGANIZAÇÕES', 'ANÁLISE DE ACESSOS'],
+            ['ONLINE',                 @ViewBag.IDENTIFICACAOTRUE],
+            ['OFFLINE',                @ViewBag.IDENTIFICACAOFALSE],
+        ]);
+
+        var options = {
+        pieHole: 0.2,
+            colors: ["#7308ff" ,"#000000" , "#230569"],
+            legend: {postion: "right",textStyle: {color: 'rgb(74, 80, 115)', fontSize:12}},
+            chartArea:{left:100,top:0,width:'100%',height:'100%'},
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+        };
+
+        // -------------------graph 4-------------------------
+
+        var options = {
+            chart: {
+            type: 'line',
+            height:350,
+            width:"100%",
+            zoom: { enabled: false}
+            },
+            stroke:{
+            width:3,
+            colors:['rgb(238, 80, 80)'],
+            curve:'smooth' , //(smooth , straight , stepline)
+            },
+            fill:{
+            opacity:0.1,
+            colors:"rgb(252, 235, 236)",
+            type:'solid'  //(solid, gradient, pattern ,image)
+            },
+            series: [{
+            name: '',
+            data: [0,10,30,50,80,50,30],
+            type: 'area'
+            } 
+            ],
+            xaxis: {
+            categories: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+            }
+        }
+        
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        
+        chart.render();
+
+        // -----------map-----------------------------
+        google.charts.load('current', {
+        'packages':['geochart'],
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+
+        function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+            ['Country', 'Popularity'],
+            ['Germany', 200],
+            ['United States', 200],
+            ['Brazil', 400],
+            ['Canada', 300],
+            ['France', 100],
+            ['Egypt', 300],
+            ['France', 500],
+            ['Poland', 230],
+        ]);
+
+        var options = {
+        colors:["rgb(238, 80, 80)"],
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+        }
+
+    </script>
+    }
+
+}
+

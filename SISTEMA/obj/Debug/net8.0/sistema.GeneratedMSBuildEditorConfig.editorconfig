@@ -1,0 +1,755 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = sistema
+build_property.RootNamespace = sistema
+build_property.ProjectDir = /home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/GoogleResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Hb29nbGVSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/LoginTwoStep.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpblR3b1N0ZXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/ErrorWeb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRXJyb3JXZWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/RevendaCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUmV2ZW5kYUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU2VhcmNoVmVyaWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU2Vzc2lvbnJUaW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Admin/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVmVyaWZpY2FjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Dados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL0RhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL05vdm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL1NlYXJjaFZlcmlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL1Nlc3Npb25yVGltZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Banner/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFubmVyL1ZlcmlmaWNhY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Dados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL0RhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL05vdm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL1NlYXJjaFZlcmlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL1Nlc3Npb25yVGltZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Categoria/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhL1ZlcmlmaWNhY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/DadosCidade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9EYWRvc0NpZGFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/NovaCidade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9Ob3ZhQ2lkYWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Cidades/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2lkYWRlcy9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Claims/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhaW1zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Claims/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhaW1zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Dados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9EYWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9Ob3ZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9TZWFyY2hWZXJpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Console/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uc29sZS9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Datalogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGF0YWxvZ3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Datalogs/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGF0YWxvZ3MvU2Vzc2lvbnJUaW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Datalogs/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGF0YWxvZ3MvVmVyaWZpY2FjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Dados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vRGFkb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vTm92by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vU2VhcmNoVmVyaWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vU2Vzc2lvbnJUaW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Desconto/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVzY29udG8vVmVyaWZpY2FjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Dados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL0RhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL05vdm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL1NlYXJjaFZlcmlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL1Nlc3Npb25yVGltZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Dispositivos/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcG9zaXRpdm9zL1ZlcmlmaWNhY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Email/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1haWwvQ29uZmlybUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Email/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1haWwvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/DadosEstado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9EYWRvc0VzdGFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/NovoEstado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9Ob3ZvRXN0YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Estados/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0YWRvcy9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Documentacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Eb2N1bWVudGFjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Gestao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXN0YW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Grafico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HcmFmaWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Instrucoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbnN0cnVjb2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Secured.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TZWN1cmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Home/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/DadosIdentificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9EYWRvc0lkZW50aWZpY2FjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/NovaIdentificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9Ob3ZhSWRlbnRpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Identificacao/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSWRlbnRpZmljYWNhby9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/DadosIps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL0RhZG9zSXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/NovoIps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL05vdm9JcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL1Nlc3Npb25yVGltZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Ips/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXBzL1ZlcmlmaWNhY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Logs/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9ncy9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Logs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9ncy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Logs/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9ncy9TZWFyY2hWZXJpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Logs/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9ncy9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Logs/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9ncy9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/DadosMapa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9EYWRvc01hcGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/Mapa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9NYXBhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/NovoMapa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9Ob3ZvTWFwYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Mapa/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFwYS9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Role/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9SZW1vdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Role/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Role/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Role/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/BreadCrumbs/Bloqueio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0JyZWFkQ3J1bWJzL0Jsb3F1ZWlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/BreadCrumbs/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0JyZWFkQ3J1bWJzL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/BreadCrumbs/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0JyZWFkQ3J1bWJzL0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/BreadCrumbs/Permissao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0JyZWFkQ3J1bWJzL1Blcm1pc3Nhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/BreadCrumbs/Titulo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0JyZWFkQ3J1bWJzL1RpdHVsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Buttons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0J1dHRvbnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Buttons/Float.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0J1dHRvbnMvRmxvYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Buttons/FloatIA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0J1dHRvbnMvRmxvYXRJQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Buttons/Publicar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0J1dHRvbnMvUHVibGljYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Buttons/Session.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0J1dHRvbnMvU2Vzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Buttons/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0J1dHRvbnMvVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Error/ErrorWeb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yL0Vycm9yV2ViLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Error/Limite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yL0xpbWl0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Loading/Page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvYWRpbmcvUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Pop/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BvcC9Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Search/page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1NlYXJjaC9wYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Bloqueado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL0Jsb3F1ZWFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Credito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL0NyZWRpdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Desconto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL0Rlc2NvbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/ErroPagamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL0Vycm9QYWdhbWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Pendente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL1BlbmRlbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL1NlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/Verificacao/Venda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1ZlcmlmaWNhY2FvL1ZlbmRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Maps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NYXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Session.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TZXNzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Web.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19XZWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Dados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvRGFkb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvTm92by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/SearchVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvU2VhcmNoVmVyaWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvU2Vzc2lvbnJUaW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Sobre/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvVmVyaWZpY2FjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/EditarImagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FZGl0YXJJbWFnZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/EditarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FZGl0YXJVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/NovoUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9Ob3ZvVXN1YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/SessionrTimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9TZXNzaW9uclRpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Usuario/Verificacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9WZXJpZmljYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19EZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-kcniq6fc1k
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-24e7aqbogj
+
+[/home/gleison/Documentos/C\#/LOJAGLEISON/SISTEMA/Views/Shared/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-mi1wc5hepe

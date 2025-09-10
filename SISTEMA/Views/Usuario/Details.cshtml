@@ -1,0 +1,39 @@
+﻿@model sistema.Models.Usuario
+
+@{
+    ViewData["Title"] = "laudos";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row" id="formularios">
+    <div class="col-md-12">
+        <div class="card">
+            <center><p  id="IconsCards"> <img id="FOTOUSER" src="~/images/users/@Html.DisplayFor(model => model.foto)@ViewBag.EXT"/></p></center>
+            <h3 id="TITLES">@ViewBag.MAPSLOCAL</h3>
+            
+            <h3 id="TITLES"> @Html.DisplayFor(model => model.nome) @Html.DisplayFor(model => model.sobrenome)</h3>
+            <h4 id="TITLES"> USERNAME @Html.DisplayFor(model => model.username)</h4>
+            <h4 id="TITLES"> EMAIL @Html.DisplayFor(model => model.email)</h4>
+            <h4 id="TITLES"> BIO @Html.DisplayFor(model => model.email)</h4>
+            <h4 id="TITLES"> WEBSITE @Html.DisplayFor(model => model.email)</h4>
+            <h4 id="TITLES"> PERFIL @Html.DisplayFor(model => model.email)</h4>
+            <div id="GOOGLEMAPS" style="width:100%;height:400px;"></div>
+
+      </div>
+    </div>
+</div>
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

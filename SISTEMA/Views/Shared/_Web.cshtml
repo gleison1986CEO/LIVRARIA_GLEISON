@@ -1,0 +1,31 @@
+﻿﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DARK GAME</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/website.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=5121965408033&text=Olá 👋🏻 Gostaria de mais informações sobre um produto!." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i></a>
+</head>
+
+<body>
+
+    @RenderBody()
+
+  
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/website.js" asp-append-version="true"></script>
+    <script src="~/js/slider.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

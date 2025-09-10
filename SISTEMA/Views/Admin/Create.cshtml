@@ -1,0 +1,35 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Novo Usuário";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@{Html.RenderPartial("~/Views/Shared/Pop/User.cshtml"); }
+
+<form method="post" id="formularios">
+
+    <div class="form-group">
+            <select asp-for="Type"  id="InputItemOne" required>
+                <option value="REVENDEDOR">Revendedor</option>
+                <option value="PARCEIRO">Parceiro</option>
+                <option value="ADMIN">Super-Admin</option>
+            </select>
+    </div>
+    <div class="form-group">
+        <input asp-for="Name" type="text" id="InputItemOne"name="Name"   maxlength="20"  class="form-control"  placeholder="Ex:Digite um nome de usuário como JHON1986"/>
+    </div>
+    <div class="form-group">
+        <input asp-for="Email"   id="InputItemOne" type="email" class="form-control" placeholder="ex: Digite um Email (Válido) "/>
+    </div>
+    <div class="form-group">
+        <input asp-for="Password" id="InputItemOne"type="password" id="senha" class="form-control"  placeholder="ex: Digite uma senha contendo (numeros, letras e caracteres)"/>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="CADASTRAR" id="btn" class="btn btn-success" />
+    </div>
+</form>
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }

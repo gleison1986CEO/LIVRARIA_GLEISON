@@ -1,0 +1,31 @@
+﻿@model sistema.Models.Mapa
+
+@{
+    ViewData["Title"] = "MAPA:::";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row" id="formularios">
+    <div class="col-md-12">
+        <div class="card">
+          
+            <h3 id="HOSTNAME"> MAPA:  @Html.DisplayFor(model => model.aeronave),@Html.DisplayFor(model => model.latitude),@Html.DisplayFor(model => model.longitude)</h3>
+      
+      </div>
+    </div>
+</div>
+
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

@@ -1,0 +1,123 @@
+﻿@model IEnumerable<sistema.Models.Ips>
+
+@{
+    ViewData["Title"] = "IP:::";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+        
+<div id="caixas">
+         <form action=""       id="form">
+         <input  type="textr"    id="SearchOneItemOneContenteSearch"  name="Nome"  placeholder="EX: IPS, NOME">
+         <button type="submit" id="button_search_cadastro">Pesquisar</button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Ips/NovoIps">Cadastrar</a></button>
+         </form>        
+</div>  
+
+
+<div class="row">
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Ip GLOBAL</th>
+                                    <th><span class="las la-sort"></span>Detalhes do local</th>
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   
+                                    
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ip)
+                                    </td>
+                                    <td>
+                                          
+                                          <a asp-action="Details" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fas fa-map-marker-alt" id="ICONBOOKDESCRIPTNOT"></i>
+                                          </a>  
+                                    </td>                                    
+                                    <td>
+                                          <a asp-action="DadosIps" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                           
+                                    </td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+  <a asp-action="DadosIps" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th><span class="las la-sort"></span>Ip GLOBAL</th>
+                                    <th><span class="las la-sort"></span>Detalhes do local</th>
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                                                        
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ip)
+                                    </td>
+                                    
+                                    <td>
+                                          
+                                          <a asp-action="Details" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                              <i class="fas fa-map-marker-alt" id="ICONBOOKDESCRIPTNOT"></i>
+                                          </a>  
+                                    </td>
+                                    
+                                    <td>
+                                          <a asp-action="DadosIps" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+
+                                          <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+                                            <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>
+                                          </a>
+
+                                    </td>
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+    </a>
+
+  }
+}
+
+</div>
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

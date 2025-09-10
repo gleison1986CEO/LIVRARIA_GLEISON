@@ -1,0 +1,201 @@
+﻿@model IEnumerable<sistema.Models.Datalog>
+
+@{
+    ViewData["Title"] = "Datalogs";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+     
+ <div id="caixas">
+         <form action=""       id="form">
+         <input  type="Text"   id="InputItemOne"  name="Executou"  placeholder="EX: DESCREVA A EXECUÇÃO">
+         <input  type="date"   id="SearchOne"  name="DataInicio">
+         <input  type="date"   id="SearchOne"  name="DataFim">
+         <input  type="Text"   id="SearchOneItem"  name="Login"         placeholder="EX: USERNAME DO USUARIO">
+         <input  type="Text"   id="Search"  name="Ip"      placeholder="EX: IP DO USUÁRIO">
+         <button type="submit" id="btn">Pesquisar</button>
+         </form>    
+        
+         @if(ViewBag.Count != null && ViewBag.Count > 0){   
+
+                <a href="@ViewBag.CSVFILE" target="_blank"><button type="submit" id="btnRemover">EXPORTAR DADOS</button>  </a>  
+
+         }
+</div>  
+
+
+
+   
+<center>
+
+         @if(ViewBag.Info == true && this.User.IsInRole("Administrador") || this.User.IsInRole("Advogado")){
+                
+           @if(ViewBag.Count != null && ViewBag.Count > 0){      
+            <div class="content" id="GRAFICOS">
+                    <div class="cards">
+
+                      
+                       <div class="card">
+                            <div class="card-left">
+                                <div class="card-icon icon-one">
+                                    <i class="fas fa-book-reader"></i>
+                                </div>
+                            </div>
+                          <div class="card-right">
+                                <div class="card-top-info">
+                                    <h2>Total Encontrados</h2>
+                                    <h3>@ViewBag.Count</h3>
+                                </div>
+            
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-left">
+                                <div class="card-icon icon-one">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                            </div>
+                            <div class="card-right">
+                                <div class="card-top-info">
+                                    <h2>Datalogs</h2>
+                                    <h3>@ViewBag.Datalogs</h3>
+                                </div>
+            
+      
+                            </div>
+                        </div>
+                       
+                        <div class="card">
+                            <div class="card-left">
+                                <div class="card-icon icon-two">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                            </div>
+                          <div class="card-right">
+                                <div class="card-top-info">
+                                    <h2>Filtros Keywords</h2>
+                                    <h3>@ViewBag.DataLogsKeys</h3>
+                                </div>
+            
+                            </div>
+                        </div>
+                        
+
+                
+                    </div>
+                </div>
+                }
+         }
+</center>
+
+
+
+
+
+<div class="row">
+@foreach (var item in Model) {
+
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Data e Hora</th>
+                                    <th><span class="las la-sort"></span>Username</th>
+                                    <th><span class="las la-sort"></span>Descição</th>
+                                    <th><span class="las la-sort"></span>Ip GLOBAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                            
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.datahora)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.login)
+                                            </td>
+
+                                            @if(item.executou.Contains("FILTRO DE HASH")){
+                                                <td id="GREEN">
+                                                    @Html.DisplayFor(modelItem => item.executou)
+                                                </td>
+                                            }else if(item.executou.Contains("ANALISE GRÁFICO")){
+                                                <td id="ORANGE">
+                                                @Html.DisplayFor(modelItem => item.executou)
+                                                </td>
+                                            }else if(item.executou.Contains("DELETE DE GRAU")){
+                                                <td id="PINK">
+                                                @Html.DisplayFor(modelItem => item.executou)
+                                                </td>
+                                            }else if(item.executou.Contains("FILTRANDO DADOS DOS LAUDOS POR PALAVRAS CHAVE")){
+                                                <td id="GREY">
+                                                @Html.DisplayFor(modelItem => item.executou)
+                                                </td>
+                                            }else{
+                                                <td id="BLACK">
+                                                @Html.DisplayFor(modelItem => item.executou)
+                                                </td>
+                                            }
+                                            <td id="IPS">
+                                                @if(item.ip == null){
+                                                <span>Ip NOT FOUND</span>
+                                                }else{
+                                                <span>@Html.DisplayFor(modelItem => item.ip)</span>
+                                                }
+                                            </td>
+                                        </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+}
+</div>
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+
+
+
+    
+
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Todos', 'analise'],
+          ['Datalogs',                @ViewBag.graf1],
+        ]);
+
+        var options = {
+            is3D: false,
+            backgroundColor: {stroke:null, fill:null, strokeSize: 0},
+            colors: ['#3EC400FF' ],
+            legend: { position: 'none' },
+            pieHole: 0.2,
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('graf1'));
+        chart.draw(data, options);
+      }
+    </script>
+
+

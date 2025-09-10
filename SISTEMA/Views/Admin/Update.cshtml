@@ -1,0 +1,34 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "Atualizar Usuário";
+}
+
+<form asp-action="Update" method="post" id="formularios">
+    
+    <!-- ID DO USUARIO-->
+    <div class="form-group">
+        <input asp-for="Id"     id="InputItemOne" class="form-control" disabled />
+    </div>
+
+    <div class="form-group">
+        <input asp-for="Email" id="InputItemOne" type="email"     class="form-control"  placeholder="Email do usuário" />
+    </div>
+    
+    <div class="form-group">
+        <input name="Password"  id="InputItemOne"type="password"  class="form-control" placeholder="Digite uma nova Senha"/>
+    </div>
+    
+    <div class="form-group">
+        <input type="submit"    value="ATUALIZAR" id="btn"class="btn btn-success" />
+    </div>
+    
+    </br>
+
+</form>
+<form asp-action="Delete" id="formularios" method="post">
+    <input name="Id" id="InputItemOne"class="form-control" HIDDEN="true"value="@ViewBag.Id"/>
+    <button id="btnRemover"type="submit" class="btn btn-primary">Deletar</button>
+</form>
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }

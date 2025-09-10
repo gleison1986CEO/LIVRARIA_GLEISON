@@ -1,0 +1,31 @@
+﻿@model sistema.Models.Mapa
+
+@{
+    ViewData["Title"] = "MAPA:::";
+    Layout = "~/Views/Shared/_Deletar.cshtml";
+}
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+ <div id="delete"> 
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="codigo" />
+        <input id="btnRemover"type="submit" value="Deletar" class="btn btn-danger" />
+    </form>
+      <span id="delete_text_middle">obs: ao deletar qualquer informação você não poderá mais restaurar!</span>
+
+</div>  
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

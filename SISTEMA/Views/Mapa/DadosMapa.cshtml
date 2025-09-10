@@ -1,0 +1,66 @@
+﻿@model sistema.Models.Mapa
+
+@{
+    ViewData["Title"] = "MAPA:::";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+<div class="row" id="formularios">
+    @{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Titulo.cshtml"); }
+    <div class="col-md-12">
+        <form asp-action="DadosMapa">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="codigo" />
+            <input type="hidden" asp-for="foto"/>
+            <input type="hidden" asp-for="hashcode"  class="form-control"  readonly="true"/>
+           
+           
+            <div class="form-group">
+                    <select asp-for="aeronave"  id="InputItemOne" required asp-items="ViewBag.DISPOSITIVO" required>
+                         <option>Escolha o Dispositivo (Aparelho)</option>
+                    </select>
+            </div>
+
+
+            <div class="form-group">
+      
+                <input asp-for="latitude" id="InputItemOne"  class="form-control" placeholder="ex: Digite a latitude"/>
+                <span asp-validation-for="latitude" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group">
+      
+                <input asp-for="longitude" id="InputItemOne"  class="form-control" placeholder="ex: Digite a logintude"/>
+                <span asp-validation-for="longitude" class="text-danger"></span>
+
+            </div>
+   
+            
+            <div class="form-group form-check">
+                <label class="switch">
+                    <input type="checkbox" asp-for="Ativo" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="ATUALIZAR:::" id="btn" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

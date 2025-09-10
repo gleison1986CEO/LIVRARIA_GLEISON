@@ -1,0 +1,32 @@
+﻿@model sistema.Models.Consoles
+
+@{
+    ViewData["Title"] = "CONSOLE";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+<div class="row" id="formularios">
+    <div class="col-md-12">
+        <div class="card">
+          
+            <h3 id="HOSTNAME"> CONSOLE:  @Html.DisplayFor(model => model.nome), @Html.DisplayFor(model => model.titulo)</h3>
+      
+      </div>
+    </div>
+</div>
+
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

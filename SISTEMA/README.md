@@ -1,0 +1,3 @@
+# KYPLAYER APP
+- DOTNET 8/9
+

@@ -99,7 +99,7 @@ namespace sistema.Controllers
         }
 
          [Authorize(Roles = "Administrador")]
-        public async Task<IActionResult> Index(string? Nome, string? Console, string? Inicio, string? Fim)
+        public async Task<IActionResult> Index(string? Produto, string? Inicio, string? Fim)
         {
 
             // VERIFY TIMER
@@ -133,21 +133,15 @@ namespace sistema.Controllers
 
 
 
-            if (!String.IsNullOrEmpty(Nome))
+            if (!String.IsNullOrEmpty(Produto))
             {
 
-                KY = KY.Where(g => g.nome.Contains(Nome));
+                KY = KY.Where(g => g.nome.Contains(Produto));
 
 
             }
 
-            if (!String.IsNullOrEmpty(Console))
-            {
-
-                KY  = KY.Where(g => g.console == Console);
-
-
-            }
+          
 
 
             if (!String.IsNullOrEmpty(Inicio) && !String.IsNullOrEmpty(Fim))
@@ -170,8 +164,7 @@ namespace sistema.Controllers
             ViewBag.REVENDEDORES = "";
             // VIEWS
 
-            if (!String.IsNullOrEmpty(Nome) ||
-                    !String.IsNullOrEmpty(Console) ||
+            if (!String.IsNullOrEmpty(Produto) ||
                     !String.IsNullOrEmpty(Inicio) ||
                     !String.IsNullOrEmpty(Fim))
             {

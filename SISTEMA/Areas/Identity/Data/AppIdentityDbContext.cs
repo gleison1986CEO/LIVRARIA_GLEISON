@@ -26,8 +26,12 @@ public class AppIdentityDbContext : IdentityDbContext<AppUser>
     public DbSet<sistema.Models.Desconto> Desconto{ get; set; }  
     public DbSet<sistema.Models.Sobre> Sobre { get; set; }  
     public DbSet<sistema.Models.Categoria> Categoria{ get; set; }   
+    public DbSet<sistema.Models.SubCategoria> SubCategoria{ get; set; } 
+    public DbSet<sistema.Models.Produto> Produto{ get; set; }   
     public DbSet<sistema.Models.Consoles> Consoles{ get; set; }   
     public DbSet<sistema.Models.Banner> Banner{ get; set; }  
+    public DbSet<sistema.Models.Cupom> Cupom{ get; set; }  
+    public DbSet<sistema.Models.Requisito> Requisito{ get; set; } 
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

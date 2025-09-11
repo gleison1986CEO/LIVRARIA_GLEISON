@@ -55,7 +55,12 @@
                         <span class="sidebar-text">Financeiro</span>
                     </a>
                 </li>      
-                            
+                <li>
+                    <a  id="ITEMMENU" asp-area="" asp-controller="Cupom" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-text">Cupom</span>
+                    </a>
+                </li>  
                 @if (this.User.IsInRole("Administrador"))
                         {
 
@@ -92,13 +97,25 @@
                                                             <span class="sidebar-icon"><i class="fas fa-chess-knight"></i></span>
                                                             <span class="sidebar-text">Categoria</span>
                                                         </a>
+                                                 </li>      
+                                                 <li>
+                                                        <a  id="ITEMMENU" asp-area="" asp-controller="SubCategoria" asp-action="Index">
+                                                            <span class="sidebar-icon"><i class="fas fa-chess-knight"></i></span>
+                                                            <span class="sidebar-text">SubCategoria</span>
+                                                        </a>
                                                  </li>                                                     
                                                  <li>
                                                         <a  id="ITEMMENU" asp-area="" asp-controller="Console" asp-action="Index">
                                                             <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
                                                             <span class="sidebar-text">Console</span>
                                                         </a>
-                                                 </li>   
+                                                 </li> 
+                                                 <li>
+                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Requisito" asp-action="Index">
+                                                            <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
+                                                            <span class="sidebar-text">Requisito</span>
+                                                        </a>
+                                                 </li>                                                      
                                             }
                                             
 
@@ -113,6 +130,32 @@
                 }
                             
             
+                <li>
+                    <a  id="ITEMMENU" asp-area="" asp-controller="Torneio" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-text">Torneio</span>
+                    </a>
+                </li>    
+
+                <li>
+                    <a  asp-area="" asp-controller="Desbloqueio" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-text">Desbloqueio</span>
+                    </a>
+                </li>   
+
+                <li>
+                    <a  asp-area="" asp-controller="Fliperama" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-text">Fliperama</span>
+                    </a>
+                </li>                  
+                <li>
+                    <a  asp-area="" asp-controller="Retro" asp-action="Index">
+                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-text">Retrô</span>
+                    </a>
+                </li>  
 
                
                 @if (this.User.IsInRole("Parceiro") || this.User.IsInRole("Revenda"))

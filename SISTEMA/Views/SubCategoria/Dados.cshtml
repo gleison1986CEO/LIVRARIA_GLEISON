@@ -1,0 +1,85 @@
+﻿@model sistema.Models.SubCategoria
+
+@{
+    ViewData["Title"] = "SUBCATEGORIAS";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+<div class="row" id="formularios">
+    @{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Titulo.cshtml"); }
+    <div class="col-md-12">
+        <form asp-action="Dados" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="hashcode"  class="form-control" value="0" readonly="true"/>
+            <input type="hidden" asp-for="codigo" />
+            <input type="hidden" asp-for="data"  class="form-control" value="0" readonly="true"/>
+            <input asp-for="date"  type="hidden" id="theDate" required/>
+            
+            <span id="SEND">Alteração do SubCadastro</span>
+
+            <div id="DADOS">
+                       
+                    <div class="form-group">
+                            <select asp-for="categoria"  id="InputItemOne" required asp-items="ViewBag.CATEGORIA" required>
+                                <option>Escolha a Categoria</option>
+                            </select>
+                    </div>                                     
+            </div>      
+
+
+            <div id="DADOS">
+                        <div class="form-group">
+                
+                            <input asp-for="nome" id="InputItemOne"   class="form-control" placeholder="ex: Identificação da Categoria" required/>
+                            <span asp-validation-for="nome" class="text-danger"></span>
+
+                        </div>   
+                        <div class="form-group">
+                
+                            <input asp-for="titulo" id="InputItemOne"   class="form-control" placeholder="ex: Titulo" required/>
+                            <span asp-validation-for="titulo" class="text-danger"></span>
+
+                        </div>   
+            </div>  
+
+
+
+
+            <div id="DADOS">
+                        <div class="form-group">
+                            <span id="SEND">Digite algumas Informações sobre a Categoria</span>
+                            <textarea type="Text"  id="textArea" rows="20" cols="120" asp-for="descricao" type="text" class="form-control" required>  </textarea>                                                   
+                            <span asp-validation-for="descricao" class="text-danger"></span>
+
+                        </div>  
+            </div>  
+
+
+            <div class="form-group form-check">
+                <label class="switch">
+                    <input type="checkbox" asp-for="Ativo">
+                    <span class="slider round"></span>
+                </label>
+                <span id="SEND">Escolha ativo/inativo</span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="ATUALIZAR" id="btn" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

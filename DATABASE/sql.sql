@@ -188,10 +188,8 @@ GO
 CREATE TABLE [dbo].[categoria]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
 GO
 
-
 CREATE TABLE [dbo].[banner]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[foto] [nvarchar](max) NULL,[categoria] [nvarchar](750) NOT NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
 GO
-
 
 CREATE TABLE [dbo].[consoles]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
 GO
@@ -199,11 +197,21 @@ GO
 CREATE TABLE [dbo].[fabricante]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
 GO
 
-CREATE TABLE [dbo].[produto]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[foto] [nvarchar](max) NULL,[categoria] [nvarchar](750) NOT NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[console] [nvarchar](max) NULL,[multilanguage] [nvarchar](max) NULL,[global] [nvarchar](max) NULL,[valor] [nvarchar](max) NULL,[desconto] [nvarchar](max) NULL,[cupom] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
+CREATE TABLE [dbo].[produto]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[foto] [nvarchar](max) NULL,[categoria] [nvarchar](750) NULL,[subcategoria] [nvarchar](750) NULL,[quantidade] [nvarchar](750) NULL, [estado] [nvarchar](750) NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[console] [nvarchar](max) NULL,[multilanguage] [nvarchar](max) NULL,[global] [nvarchar](max) NULL,[valor] [nvarchar](max) NULL,[desconto] [nvarchar](max) NULL,[cupom] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
 GO
 
 CREATE TABLE [dbo].[financeiro]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[valor] [nvarchar](max) NULL,[reserva] [nvarchar](max) NULL,[estoque] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
 GO
+
+CREATE TABLE [dbo].[subcategoria]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[categoria] [nvarchar](750) NOT NULL, [titulo] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[cupom]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[valor] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[requisito]([codigo] [int] IDENTITY(1,1) NOT NULL,[hashcode] [nvarchar](750) NOT NULL,[nome] [nvarchar](750) NOT NULL,[audio] [nvarchar](750) NULL,[video] [nvarchar](max) NULL,[tamanho] [nvarchar](750) NULL,[console] [nvarchar](750) NULL,[descricao] [nvarchar](max) NULL,[data] DATETIME NOT NULL,[date] [nvarchar](250) NULL,[Ativo] [bit] NOT NULL, PRIMARY KEY CLUSTERED ([codigo] ASC) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS= ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]) ON [PRIMARY]
+GO
+
 
 ------------ SELECT ------------------------------------------------------------------
 

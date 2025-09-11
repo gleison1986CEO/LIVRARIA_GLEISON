@@ -9,11 +9,16 @@ namespace sistema.Classes
 
         // AJUSTES
         private const string WINDOWS = "C:\\Users\\gleis\\Documents\\DEV\\C#\\GARIBALDI\\SISTEMA\\wwwroot\\images\\"; 
-        private const string LINUX   = "/home/gleison/Documentos/C#/KYPLAYER/KYPLAYER/SISTEMA/wwwroot/images/";
+        private const string LINUX   = "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/";
         
        // AJUSTES
         public String QRCODE(){
             var connetionString = LINUX  +  "qrcode/";
+            return connetionString;
+        }
+
+        public String PRODUTO(){
+            var connetionString = LINUX  +  "produto/";
             return connetionString;
         }
 

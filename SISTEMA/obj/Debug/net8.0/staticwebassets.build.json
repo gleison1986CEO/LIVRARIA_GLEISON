@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mdeHBtYl2OPdZV1vdbtDvDoV4G9h6kwAfaw1UidIgeU=",
+  "Hash": "k+ShqY3ZFSPIysWj7uRDQteXiPvlQZr4Pe5a6XkEmlo=",
   "Source": "sistema",
   "BasePath": "_content/sistema",
   "Mode": "Default",
@@ -5373,6 +5373,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/pie-chart.png"
+    },
+    {
+      "Identity": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/produto/KY_PLAYER_TV_STREAMING_96855bd9e46048b29125284871124309.png",
+      "SourceId": "sistema",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/",
+      "BasePath": "_content/sistema",
+      "RelativePath": "images/produto/KY_PLAYER_TV_STREAMING_96855bd9e46048b29125284871124309.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/produto/KY_PLAYER_TV_STREAMING_96855bd9e46048b29125284871124309.png"
     },
     {
       "Identity": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_018e40bedfb24c7eb01c698f43f93bcd.png",

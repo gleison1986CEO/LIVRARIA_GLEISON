@@ -79,6 +79,8 @@
 @foreach (var item in Model) {
   
   @if(item.Ativo == true){
+    
+  <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
   <div id="caixas">
                           <table width="100%">
                             <thead>
@@ -90,8 +92,8 @@
                                     <th><span class="las la-sort"></span>Console</th> 
                                     <th><span class="las la-sort"></span>Cupom</th> 
                                     <th><span class="las la-sort"></span>Valor</th> 
-                                    <th><span class="las la-sort"></span>Data</th>                                    
-                                    <th><span class="las la-sort"></span>Ações</th>
+                                    <th><span class="las la-sort"></span>Quant.</th>        
+                                    <th><span class="las la-sort"></span>Status</th>                               
                                 </tr>
                             </thead>
                             <tbody>
@@ -119,25 +121,27 @@
                                     </td> 
  
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.cupom)
+                                        <div id="SENDEXTRA"> <a asp-controller="Cupom" asp-action="Index" id="ENVIARTELEGRAMA"  asp-route-Nome="@item.cupom" > @Html.DisplayFor(modelItem => item.cupom)</a></div>                                    
+                                        
                                     </td> 
 
                                     <td>
                                         R$:@Html.DisplayFor(modelItem => item.valor),00
                                     </td> 
            
+          
 
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.data)
+                                        @Html.DisplayFor(modelItem => item.quantidade)
                                     </td>  
-                                   
                                     <td>
-                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
-                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
-                                          </a> 
-
-                           
-                                    </td>
+                                        @if(item.Ativo == false){
+                                           <span id="STATUSINATIVO">OUT_OFF</span>
+                                        }else{
+                                           <span id="STATUSATIVO">STOCK</span>
+                                        }
+                                       
+                                    </td> 
                                 </tr>
                                 
 
@@ -146,6 +150,7 @@
 
  
  </div>
+ </a>
   } else{
   <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
   <div id="caixas">
@@ -158,8 +163,8 @@
                                     <th><span class="las la-sort"></span>SubCategoria</th> 
                                     <th><span class="las la-sort"></span>Console</th> 
                                     <th><span class="las la-sort"></span>Cupom</th> 
-                                    <th><span class="las la-sort"></span>Valor</th> 
-                                    <th><span class="las la-sort"></span>Data</th>                                    
+                                    <th><span class="las la-sort"></span>Quant.</th> 
+                                    <th><span class="las la-sort"></span>Status</th>                                     
                                     <th><span class="las la-sort"></span>Ações</th>
                                 </tr>
                             </thead>
@@ -187,23 +192,25 @@
                                         @Html.DisplayFor(modelItem => item.console)
                                     </td> 
  
+ 
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.cupom)
-                                    </td> 
-
-                                    <td>
-                                        R$:@Html.DisplayFor(modelItem => item.valor),00
-                                    </td> 
+                                        <div id="SENDEXTRA"> <a asp-controller="Cupom" asp-action="Index" id="ENVIARTELEGRAMA"  asp-route-Nome="@item.cupom" > @Html.DisplayFor(modelItem => item.cupom)</a></div>                                    
+                                        
+                                    </td>
            
 
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.data)
+                                        @Html.DisplayFor(modelItem => item.quantidade)
                                     </td>  
-                                    
                                     <td>
-                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
-                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
-                                          </a> 
+                                        @if(item.Ativo == false){
+                                           <span id="STATUSINATIVO">OUT_OFF</span>
+                                        }else{
+                                           <span id="STATUSATIVO">STOCK</span>
+                                        }
+                                       
+                                    </td> 
+                                    <td>
 
                                           <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
                                             <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>

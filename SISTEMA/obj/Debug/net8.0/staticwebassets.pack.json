@@ -1129,6 +1129,10 @@
       "PackagePath": "staticwebassets/images/pie-chart.png"
     },
     {
+      "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/produto/KY_PLAYER_TV_STREAMING_96855bd9e46048b29125284871124309.png",
+      "PackagePath": "staticwebassets/images/produto/KY_PLAYER_TV_STREAMING_96855bd9e46048b29125284871124309.png"
+    },
+    {
       "Id": "/home/gleison/Documentos/C#/LOJAGLEISON/SISTEMA/wwwroot/images/qrcode/KY_PLAYER_TV_STREAMING_018e40bedfb24c7eb01c698f43f93bcd.png",
       "PackagePath": "staticwebassets/images/qrcode/KY_PLAYER_TV_STREAMING_018e40bedfb24c7eb01c698f43f93bcd.png"
     },

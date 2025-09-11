@@ -130,7 +130,10 @@
     top: 2px;
 }
 
-
+td{
+    font-weight: bold;
+    font-size: 19px;
+}
 /*POP*/
 .popup {
     z-index: 1000;

@@ -1,0 +1,242 @@
+﻿@model IEnumerable<sistema.Models.Produto>
+
+@{
+    ViewData["Title"] = "PRODUTO";
+}
+
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>    
+
+
+<div id="caixas">
+         <form action=""       id="form">
+         
+         <input  type="text"  id="SearchOneItemOneContenteSearchFULL"  name="Titulo"  placeholder="EX: Nome do Produto">
+
+         <select id="SearchOneItemOneContenteSearchFULL" name="Categoria" asp-items="ViewBag.CATEGORIA" >
+                <option value=" ">Pesquisar pela Categoria</option>
+         </select>      
+         <select id="SearchOneItemOneContenteSearchFULL" name="SubCategoria" asp-items="ViewBag.SUBCATEGORIA" >
+                <option value=" ">Pesquisar pela SubCategoria</option>
+         </select>
+         <select id="SearchOneItemOneContenteSearchFULL" name="Console" asp-items="ViewBag.CONSOLE" >
+                <option value=" ">Pesquisar pela Console</option>
+         </select>
+         <select id="SearchOneItemOneContenteSearchFULL" name="Cupom" asp-items="ViewBag.CUPOM" >
+                <option value=" ">Pesquisar pelo Cupom</option>
+         </select>
+         <span id="SENDINFO">Data do Crédito</span>
+         <input  type="date"   id="SearchOne"  name="Inicio">
+         <input  type="date"   id="SearchOne"  name="Fim">    
+
+         <button type="submit" id="button_search_cadastro_DEPESAS">Pesquisar</button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Produto/Novo">Novo</a></button>
+         <button type="submit" id="button_search_cadastro_new"><a id="link" href="/Home/WebSite">WebSite</a></button>
+         </form>        
+</div>        
+
+
+
+
+<span id="SEND">Faça Pesquisas Relacionadas a Informação do Produto</span>
+
+    <div class="content" id="GRAFICOS">
+        <div class="cards">
+
+
+            <div class="card">
+                <div class="card-left">
+                    <div class="card-icon icon-two">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-top-info">
+                        <h2>Produtos</h2>
+                        <h4>@ViewBag.TOTAL Unid.</h4>
+                    </div>
+    
+                </div>
+            
+    
+
+    </div>
+    </div>
+</div>    
+
+
+
+<span id="SEND">Informações para Produtos</span>
+<div id="IDTABELAS">
+
+@foreach (var item in Model) {
+  
+  @if(item.Ativo == true){
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th><span class="las la-sort"></span>Foto</th>
+                                    <th><span class="las la-sort"></span>Titulo</th>
+                                    <th><span class="las la-sort"></span>Categoria</th>
+                                    <th><span class="las la-sort"></span>SubCategoria</th> 
+                                    <th><span class="las la-sort"></span>Console</th> 
+                                    <th><span class="las la-sort"></span>Cupom</th> 
+                                    <th><span class="las la-sort"></span>Valor</th> 
+                                    <th><span class="las la-sort"></span>Data</th>                                    
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+          
+                                    <td>
+                                        <img  id="fotos"src="~/images/produto/@Html.DisplayFor(modelItem => item.foto)@ViewBag.EXT">
+                                    </td> 
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.titulo)
+                                    </td> 
+  
+                      
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.categoria)
+                                    </td>     
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.subcategoria)
+                                    </td> 
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.console)
+                                    </td> 
+ 
+                                    <td>
+                                        R$:@Html.DisplayFor(modelItem => item.cupom),00
+                                    </td> 
+
+                                    <td>
+                                        R$:@Html.DisplayFor(modelItem => item.valor),00
+                                    </td> 
+           
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>  
+                                   
+                                    <td>
+                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                           
+                                    </td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+
+ 
+ </div>
+  } else{
+  <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+  <div id="caixas">
+                          <table width="100%">
+                            <thead>
+                               <tr>
+                                    <th><span class="las la-sort"></span>Foto</th>
+                                    <th><span class="las la-sort"></span>Titulo</th>
+                                    <th><span class="las la-sort"></span>Categoria</th>
+                                    <th><span class="las la-sort"></span>SubCategoria</th> 
+                                    <th><span class="las la-sort"></span>Console</th> 
+                                    <th><span class="las la-sort"></span>Cupom</th> 
+                                    <th><span class="las la-sort"></span>Valor</th> 
+                                    <th><span class="las la-sort"></span>Data</th>                                    
+                                    <th><span class="las la-sort"></span>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                         
+                                    <td>
+                                        <img  id="fotos"src="~/images/produto/@Html.DisplayFor(modelItem => item.foto)@ViewBag.EXT">
+                                    </td> 
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.titulo)
+                                    </td> 
+  
+                      
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.categoria)
+                                    </td>     
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.subcategoria)
+                                    </td> 
+ 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.console)
+                                    </td> 
+ 
+                                    <td>
+                                        R$:@Html.DisplayFor(modelItem => item.cupom),00
+                                    </td> 
+
+                                    <td>
+                                        R$:@Html.DisplayFor(modelItem => item.valor),00
+                                    </td> 
+           
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.data)
+                                    </td>  
+                                    
+                                    <td>
+                                          <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
+                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                          </a> 
+
+                                          <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">
+                                            <i class="fas fa-eraser" id="ICONBOOKDESCRIPT_DELETE"></i>
+                                          </a>
+
+                                    </td>
+                      
+             
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+    
+
+ </div>
+    </a>
+
+  }
+}
+</div>
+
+
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }
+

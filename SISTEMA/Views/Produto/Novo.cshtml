@@ -1,0 +1,145 @@
+﻿@model sistema.Models.Produto
+
+@{
+    ViewData["Title"] = "PRODUTO";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (User?.Identity?.IsAuthenticated ?? false)
+{ 
+    
+<div class="row" id="formularios">
+    @{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Titulo.cshtml"); }
+    <div class="col-md-12">
+        <form asp-action="Novo" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="hashcode"  class="form-control" value="0" readonly="true"/>
+            <input type="hidden" asp-for="data"  class="form-control" value="0" readonly="true"/>
+            <input asp-for="date"  type="hidden" id="theDate" required/>
+
+            <span id="SEND">Cadastro de Informações</span>
+
+                       <div class="form-group">
+
+                <input asp-for="titulo" id="InputItemOne"   class="form-control" placeholder="ex: Título do Produto" required/>
+                <span asp-validation-for="titulo" class="text-danger"></span>
+
+            </div> 
+
+
+            <div class="form-group">
+                    <span id="SEND">Escolha/Carregue uma imagem</span>
+                    <label for="foto" id="FOTOBTN"><i class="fas fa-clone"></i> Escolha uma Foto</label>
+                    <input asp-for="foto" id="foto" type="file" accept="image/*" class="form-control" style="display:none" />
+            </div>
+
+            <div id="DADOS">
+                    <p id="TEXTDURATION">Dados da Informação</p>
+                
+                        <div class="form-group">
+                                <select asp-for="categoria"  id="InputItemOne" required asp-items="ViewBag.CATEGORIA" required>
+                                    <option>Escolha a Categoria</option>
+                                </select>
+                        </div> 
+                        <div class="form-group">
+                                <select asp-for="subcategoria"  id="InputItemOne" required asp-items="ViewBag.SUBCATEGORIA" required>
+                                    <option>Escolha a SubCategoria</option>
+                                </select>
+                        </div> 
+                        <div class="form-group">
+                                <select asp-for="console"  id="InputItemOne" required asp-items="ViewBag.CONSOLE" required>
+                                    <option>Escolha a Console</option>
+                                </select>
+                        </div>    
+                        <div class="form-group">
+                                <select asp-for="estado"  id="InputItemOne"  required>
+                                    <option>Escolha a Estado do Produto</option>
+                                    <option value="novo">Novo/Zero</option>
+                                    <option value="usado">Usado</option>
+                                    <option value="defeito">Defeito</option>
+                                </select>
+                        </div> 
+
+                        <div class="form-group">
+                                <select asp-for="multilanguage"  id="InputItemOne"  required>
+                                    <option>EEste Produto e "MultiLanguage"</option>
+                                    <option value="sim">Sim! abrange algumas linguas</option>
+                                    <option value="nao">Não! somente lingua nativa</option>
+                                </select>
+                        </div> 
+                        <div class="form-group">
+                                <select asp-for="global"  id="InputItemOne"  required>
+                                    <option>EEste Produto é "Global"</option>
+                                    <option value="sim">Sim! funciona em qualquer aparelho</option>
+                                    <option value="nao">Não! consulte requisitos</option>
+                                </select>
+                        </div>                                                                                                                    
+  
+            </div>  
+
+
+            <div class="form-group">
+
+                <input asp-for="quantidade" id="InputItemOne"   class="form-control" placeholder="ex: Quantidade do produto" required/>
+                <span asp-validation-for="quantidade" class="text-danger"></span>
+
+            </div> 
+
+
+
+            <div class="form-group">
+
+                <input asp-for="desconto" id="InputItemOne"   class="form-control" placeholder="ex: Digite o Desconto" required/>
+                <span asp-validation-for="desconto" class="text-danger"></span>
+
+            </div> 
+            <div id="DADOS">
+                    <p id="TEXTDURATION">Descrição</p>
+                        <div class="form-group">
+                            <span id="SEND">Digite alguma Informações</span>
+                            <textarea type="Text"  id="textArea" rows="20" cols="120" asp-for="descricao" type="text" class="form-control" required>  </textarea>                                                   
+                            <span asp-validation-for="descricao" class="text-danger"></span>
+
+                        </div>  
+            </div>  
+
+            <div class="form-group">
+
+                <input asp-for="valor" id="InputItemOne"   class="form-control" placeholder="ex: Digite o Valor Total" required/>
+                <span asp-validation-for="valor" class="text-danger"></span>
+
+            </div> 
+            
+            <div class="form-group">
+                    <select asp-for="cupom"  id="InputItemOne" required asp-items="ViewBag.CUPOM" required>
+                        <option>Escolha o Cupom de Desconto</option>
+                    </select>
+            </div>  
+      
+
+            <div class="form-group form-check">
+                <label class="switch">
+                    <input type="checkbox" asp-for="Ativo" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span id="SEND">Escolha ativo/inativo</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="CADASTRAR" id="btn" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+}else{
+
+   Html.RenderPartial("~/Views/Shared/Error/error.cshtml"); 
+
+}
+
+
+
+@{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Footer.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/FloatIA.cshtml"); }
+@{Html.RenderPartial("~/Views/Shared/Buttons/Float.cshtml"); }

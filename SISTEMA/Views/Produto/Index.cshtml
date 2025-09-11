@@ -88,8 +88,7 @@
                                     <th><span class="las la-sort"></span>Foto</th>
                                     <th><span class="las la-sort"></span>Titulo</th>
                                     <th><span class="las la-sort"></span>Categoria</th>
-                                    <th><span class="las la-sort"></span>SubCategoria</th> 
-                                    <th><span class="las la-sort"></span>Console</th> 
+                                    <th><span class="las la-sort"></span>Requisito</th>
                                     <th><span class="las la-sort"></span>Cupom</th> 
                                     <th><span class="las la-sort"></span>Valor</th> 
                                     <th><span class="las la-sort"></span>Quant.</th>        
@@ -107,17 +106,14 @@
                                         @Html.DisplayFor(modelItem => item.titulo)
                                     </td> 
   
-                      
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.categoria)
-                                    </td>     
- 
+
                                     <td>
                                         @Html.DisplayFor(modelItem => item.subcategoria)
                                     </td> 
  
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.console)
+                                        <div id="SENDEXTRA"> <a asp-controller="Requisito" asp-action="Index" id="ENVIARTELEGRAMA"  asp-route-Nome="@item.titulo" > Requisitos</a></div>                                    
+                                        
                                     </td> 
  
                                     <td>
@@ -159,9 +155,8 @@
                                <tr>
                                     <th><span class="las la-sort"></span>Foto</th>
                                     <th><span class="las la-sort"></span>Titulo</th>
-                                    <th><span class="las la-sort"></span>Categoria</th>
                                     <th><span class="las la-sort"></span>SubCategoria</th> 
-                                    <th><span class="las la-sort"></span>Console</th> 
+                                    <th><span class="las la-sort"></span>Requisito</th> 
                                     <th><span class="las la-sort"></span>Cupom</th> 
                                     <th><span class="las la-sort"></span>Quant.</th> 
                                     <th><span class="las la-sort"></span>Status</th>                                     
@@ -178,18 +173,14 @@
                                     <td>
                                         @Html.DisplayFor(modelItem => item.titulo)
                                     </td> 
-  
-                      
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.categoria)
-                                    </td>     
- 
+
                                     <td>
                                         @Html.DisplayFor(modelItem => item.subcategoria)
                                     </td> 
  
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.console)
+                                        <div id="SENDEXTRA"> <a asp-controller="Requisito" asp-action="Index" id="ENVIARTELEGRAMA"  asp-route-Nome="@item.titulo" > Requisitos</a></div>                                    
+                                        
                                     </td> 
  
  

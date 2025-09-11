@@ -101,7 +101,7 @@ namespace sistema.Controllers
          [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Index(string? SubCategoria, string? Titulo, string? Inicio, string? Fim)
         {
-
+            ViewData["CATEGORIA"]     = new SelectList(_context.Categoria.ToList().Where(c => c.Ativo), "nome", "nome");
             // VERIFY TIMER
             // VERIFY TIMER
             TIMER();

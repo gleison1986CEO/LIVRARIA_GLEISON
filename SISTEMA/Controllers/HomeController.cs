@@ -88,6 +88,16 @@ namespace sistema.Controllers
 
             ViewBag.USUARIOATIVO             = _context.Usuario.Where(c => c.Ativo == true).Count();
 
+            ViewBag.PROD_VENDA               = _context.Produto.Where(c => c.Ativo == true).Count();
+
+            ViewBag.PRO_ESTOQUE              = _context.Produto.Where(c => c.Ativo == false).Count();
+
+            ViewBag.PROD_TOTAL               = _context.Produto.Sum(g => Convert.ToInt32(g.valor));
+
+            ViewBag.VENDA                    = _context.Produto.Where(c => c.Ativo == true).Sum(g => Convert.ToInt32(g.valor));
+
+            ViewBag.ESTOQUE                 = _context.Produto.Where(c => c.Ativo == false).Sum(g => Convert.ToInt32(g.valor));
+
             ViewBag.IDENTIFICACAO            = _context.Identificacao.Count();
   
             ViewBag.IDENTIFICACAOTRUE        = _context.Identificacao.Count(c => c.Ativo ==true);

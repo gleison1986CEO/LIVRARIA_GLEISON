@@ -12,8 +12,10 @@
 <div id="caixas">
          <form action=""       id="form">
 
-         <input  type="number"  id="SearchOneItemOneContenteSearchFULL"  name="SubCategoria"  placeholder="EX: SubCategoria">          
-         <input  type="number"  id="SearchOneItemOneContenteSearchFULL"  name="Titulo"  placeholder="EX: Categoria">
+         <select id="SearchOneItemOneContenteSearchFULL" name="Categoria" asp-items="ViewBag.CATEGORIA" >
+                <option value=" ">Pesquisar pela Categoria</option>
+         </select> 
+         <input  type="text"  id="SearchOneItemOneContenteSearchFULL"  name="SubCategoria"  placeholder="EX: SubCategoria">          
 
          <span id="SENDINFO">Data do Crédito</span>
          <input  type="date"   id="SearchOne"  name="Inicio">

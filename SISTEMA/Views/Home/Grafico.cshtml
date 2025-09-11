@@ -53,67 +53,91 @@
                     </div>
                 </div>
 
-                }
 
 
 
 
 
-@if (this.User.IsInRole("Revenda"))
 
-                {
                 <div class="card">
                     <div class="card-left">
                         <div class="card-icon icon-two">
-                            <i class="fas fa-hand-holding-usd"></i>
+                            <i class="fas fa-ghost"></i>
                         </div>
                     </div>
                     <div class="card-right">
                         <div class="card-top-info">
-                            <h2>Taxa R$: @ViewBag.CREDITOUNIDADE,00</h2>
-                            <h6>Valor de crédito cobrado pela plataforma.</h6>
+                            <h2>Vendido</h2>
+                            <h6>@ViewBag.PROD_VENDA </h6>
                         </div>
      
                     </div>
                 </div>
-    
+               
                 <div class="card">
                     <div class="card-left">
                         <div class="card-icon icon-two">
-                            <i class="fas fa-address-book"></i>
+                            <i class="fas fa-dice-d6"></i>
                         </div>
                     </div>
                    <div class="card-right">
                         <div class="card-top-info">
-                            <h2>Meus Cliente</h2>
-                            <h4>@ViewBag.CLIENTETOTALREVENDA (Unid.)</h4>
-                        </div>
-     
-                    </div>
-                </div>
-
-                
-                <div class="card">
-                    <div class="card-left">
-                        <div class="card-icon icon-two">
-                            <i class="fas fa-wallet"></i>
-                        </div>
-                    </div>
-                   <div class="card-right">
-                        <div class="card-top-info">
-                            <h2>Valor Depositado</h2>
-                            <h4>R$: @ViewBag.CARTEIRA,00</h4>
+                            <h2>Estoque</h2>
+                            <h6>@ViewBag.PRO_ESTOQUE </h6>
                         </div>
      
                       
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Total em Produtos</h2>
+                            <h3>R$: @ViewBag.PROD_TOTAL,00 </h3>
+                        </div>
+     
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-ghost"></i>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Vendido</h2>
+                            <h3>R$: @ViewBag.VENDA,00</h3>
+                        </div>
+     
+                    </div>
+                </div>
+               
+                <div class="card">
+                    <div class="card-left">
+                        <div class="card-icon icon-two">
+                            <i class="fas fa-dice-d6"></i>
+                        </div>
+                    </div>
+                   <div class="card-right">
+                        <div class="card-top-info">
+                            <h2>Alocado</h2>
+                            <h3>R$: @ViewBag.ESTOQUE,00  </h3>
+                        </div>
+     
+                      
+                    </div>
+                </div>
+               
                 }
-
-
-
-
-
 
 
 

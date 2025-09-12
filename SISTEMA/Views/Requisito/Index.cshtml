@@ -68,22 +68,24 @@
                           <table width="100%">
                             <thead>
                                 <tr>
+                                    <th><span class="las la-sort"></span>Vídeo</th>
                                     <th><span class="las la-sort"></span>Produto</th>
                                     <th><span class="las la-sort"></span>Audio</th>
-                                    <th><span class="las la-sort"></span>Vídeo</th>
                                     <th><span class="las la-sort"></span>Tamanho</th> 
                                     <th><span class="las la-sort"></span>Console</th> 
                                     <th><span class="las la-sort"></span>Data</th>                                    
-                                    <th><span class="las la-sort"></span>Ações</th>
+                                    <th><span class="las la-sort"></span>Info</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
 
 
-   
-                         
- 
+                                    <td>
+                                        <div id="SENDEXTRA"> <a a href="@item.video" id="ENVIARTELEGRAMA"> Ver Vídeo</a></div>                                    
+                                        
+                                    </td> 
+
                                     <td>
                                         @Html.DisplayFor(modelItem => item.nome)
                                     </td> 
@@ -91,10 +93,7 @@
                                     <td>
                                         @Html.DisplayFor(modelItem => item.audio)
                                     </td>    
- 
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.video)
-                                    </td> 
+   
            
                                     <td>
                                         @Html.DisplayFor(modelItem => item.tamanho)
@@ -109,7 +108,7 @@
                                    
                                     <td>
                                           <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
-                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                               <i class="fas fa-file-invoice" id="ICONBOOKDESCRIPT"></i>
                                           </a> 
 
                            
@@ -128,13 +127,13 @@
                           <table width="100%">
                             <thead>
                                <tr>
+                                    <th><span class="las la-sort"></span>Vídeo</th>                               
                                     <th><span class="las la-sort"></span>Produto</th>
                                     <th><span class="las la-sort"></span>Audio</th>
-                                    <th><span class="las la-sort"></span>Vídeo</th>
                                     <th><span class="las la-sort"></span>Tamanho</th> 
                                     <th><span class="las la-sort"></span>Console</th> 
                                     <th><span class="las la-sort"></span>Data</th>                                    
-                                    <th><span class="las la-sort"></span>Ações</th>
+                                    <th><span class="las la-sort"></span>Info</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -142,7 +141,10 @@
  
                          
  
- 
+                                    <td>
+                                        <div id="SENDEXTRA"> <a a href="@item.video" id="ENVIARTELEGRAMA"> Ver Vídeo</a></div>                                    
+                                        
+                                    </td> 
                                     <td>
                                         @Html.DisplayFor(modelItem => item.nome)
                                     </td> 
@@ -150,11 +152,7 @@
                                     <td>
                                         @Html.DisplayFor(modelItem => item.audio)
                                     </td>    
- 
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.video)
-                                    </td> 
-           
+     
                                     <td>
                                         @Html.DisplayFor(modelItem => item.tamanho)
                                     </td>
@@ -167,7 +165,7 @@
                                     </td>   
                                     <td>
                                           <a asp-action="Dados" id="cardItem" asp-route-id="@item.codigo"  asp-route-hash="@ViewBag.HASHCODE">
-                                               <i class="fa fa-eye" id="ICONBOOKDESCRIPT"></i>
+                                               <i class="fas fa-file-invoice" id="ICONBOOKDESCRIPT"></i>
                                           </a> 
 
                                           <a style="text-decoration:none; color:#ffffff;" asp-action="Delete" asp-route-id="@item.codigo" asp-route-hash="@ViewBag.HASHCODE">

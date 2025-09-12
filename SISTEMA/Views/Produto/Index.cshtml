@@ -132,9 +132,9 @@
                                     </td>  
                                     <td>
                                         @if(item.Ativo == false){
-                                           <span id="STATUSINATIVO">OUT_OFF</span>
+                                           <span id="STATUSATIVO">VENDIDO</span>
                                         }else{
-                                           <span id="STATUSATIVO">STOCK</span>
+                                           <span id="STATUSINATIVO">ESTOQUE</span>
                                         }
                                        
                                     </td> 
@@ -193,11 +193,11 @@
                                     <td>
                                         @Html.DisplayFor(modelItem => item.quantidade)
                                     </td>  
-                                    <td>
+                                     <td>
                                         @if(item.Ativo == false){
-                                           <span id="STATUSINATIVO">OUT_OFF</span>
+                                           <span id="STATUSATIVO">VENDIDO</span>
                                         }else{
-                                           <span id="STATUSATIVO">STOCK</span>
+                                           <span id="STATUSINATIVO">ESTOQUE</span>
                                         }
                                        
                                     </td> 

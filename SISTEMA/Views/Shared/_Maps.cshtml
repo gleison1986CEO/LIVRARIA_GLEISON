@@ -41,33 +41,27 @@
                 <li id="USUARIOLOGADO">
                     @User.Identity.Name
                 </li>
-                
-                <li>
+              <li>
                     <a  asp-area="" asp-controller="Home" asp-action="Grafico">
                         <span class="sidebar-icon"><i class="fas fa-chart-pie"></i></span>
                         <span class="sidebar-text">Dashboard</span>
                     </a>
                 </li>
 
-                <li>
-                    <a  id="ITEMMENU" asp-area="" asp-controller="Financeiro" asp-action="Index">
-                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
-                        <span class="sidebar-text">Financeiro</span>
-                    </a>
-                </li>      
+
                 <li>
                     <a  id="ITEMMENU" asp-area="" asp-controller="Cupom" asp-action="Index">
                         <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
                         <span class="sidebar-text">Cupom</span>
                     </a>
-                </li>  
+                </li>                             
                 @if (this.User.IsInRole("Administrador"))
                         {
 
                 
                       
                               <li class="drop-menu">
-                                    <a href="#" class="link-flex" id="sub-btn2">
+                                    <a id="ITEMMENU" href="#" class="link-flex" id="sub-btn2">
                                         <span class="sidebar-icon">
                                             <i class="fas fa-dice-d6"></i>
                                             <span class="sidebar-text">Produto</span>
@@ -79,42 +73,38 @@
 
                                             @if (this.User.IsInRole("Administrador"))
                                             {
+
                                                   <li>
                                                         <a  id="ITEMMENU" asp-area="" asp-controller="Produto" asp-action="Index">
                                                             <span class="sidebar-icon"><i class="fas fa-chess"></i></span>
                                                             <span class="sidebar-text">Produto</span>
                                                         </a>
                                                  </li> 
+      
                                                  <li>
-                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Fabricante" asp-action="Index">
-                                                            <span class="sidebar-icon"><i class="fas fa-dice-d20"></i></span>
-                                                            <span class="sidebar-text">Fabricante</span>
-                                                        </a>
-                                                 </li>  
-                                                 <li>
-                                                        <a  id="ITEMMENU" asp-area="" asp-controller="Categoria" asp-action="Index">
+                                                        <a  asp-area="" asp-controller="Categoria" asp-action="Index">
                                                             <span class="sidebar-icon"><i class="fas fa-chess-knight"></i></span>
                                                             <span class="sidebar-text">Categoria</span>
                                                         </a>
-                                                 </li>   
+                                                 </li>      
                                                  <li>
-                                                        <a  id="ITEMMENU" asp-area="" asp-controller="SubCategoria" asp-action="Index">
+                                                        <a   asp-area="" asp-controller="SubCategoria" asp-action="Index">
                                                             <span class="sidebar-icon"><i class="fas fa-chess-knight"></i></span>
                                                             <span class="sidebar-text">SubCategoria</span>
                                                         </a>
-                                                 </li>                                                         
+                                                 </li>                                                     
                                                  <li>
                                                         <a  id="ITEMMENU" asp-area="" asp-controller="Console" asp-action="Index">
                                                             <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
                                                             <span class="sidebar-text">Console</span>
                                                         </a>
-                                                 </li> 
+                                                 </li>  
                                                  <li>
                                                         <a  id="ITEMMENU" asp-area="" asp-controller="Requisito" asp-action="Index">
                                                             <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
                                                             <span class="sidebar-text">Requisito</span>
                                                         </a>
-                                                 </li>                                                      
+                                                 </li>                                                    
                                             }
                                             
 
@@ -176,10 +166,10 @@
                 
                       
                               <li class="drop-menu">
-                                    <a href="#" class="link-flex" id="sub-btn7">
+                                    <a id="ITEMMENU" href="#" class="link-flex" id="sub-btn7">
                                         <span class="sidebar-icon">
                                             <i class="fas fa-desktop"></i>
-                                            <span class="sidebar-text">LandingPage</span>
+                                            <span class="sidebar-text">Ecommerce</span>
                                         </span>
                                         <span class="end-icon"><i class="fas fa-chevron-right"></i></span>
                                     </a>

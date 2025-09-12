@@ -12,7 +12,9 @@
 <div id="caixas">
          <form action=""       id="form">
 
-         <input  type="text"  id="SearchOneItemOneContenteSearchFULL"  name="Produto"  placeholder="EX: Nome do Produto">          
+         <select id="SearchOneItemOneContenteSearchFULL" name="Produto" asp-items="ViewBag.PRODUTO" >
+                <option value=" ">Pesquisar pelo Produto</option>
+         </select>           
 
          <span id="SENDINFO">Data do Crédito</span>
          <input  type="date"   id="SearchOne"  name="Inicio">

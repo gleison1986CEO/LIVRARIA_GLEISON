@@ -4496,6 +4496,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produto\KY_PLAYER_TV_STREAMING_96855bd9e46048b29125284871124309.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produto\KY_PLAYER_TV_STREAMING_b50c64ed04514395a24ff6e90656fcb1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>sistema</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/sistema</BasePath>
+      <RelativePath>images/produto/KY_PLAYER_TV_STREAMING_b50c64ed04514395a24ff6e90656fcb1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produto\KY_PLAYER_TV_STREAMING_b50c64ed04514395a24ff6e90656fcb1.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\qrcode\KY_PLAYER_TV_STREAMING_018e40bedfb24c7eb01c698f43f93bcd.png))">
       <SourceType>Package</SourceType>
       <SourceId>sistema</SourceId>

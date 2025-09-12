@@ -8,9 +8,9 @@
 @if (User?.Identity?.IsAuthenticated ?? false)
 { 
     
-
 <div class="row" id="formularios">
     @{Html.RenderPartial("~/Views/Shared/BreadCrumbs/Titulo.cshtml"); }
+
     <div class="col-md-12">
         <form asp-action="Novo" enctype="multipart/form-data">
 

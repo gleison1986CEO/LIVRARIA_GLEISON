@@ -101,7 +101,8 @@ namespace sistema.Controllers
          [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Index(string? Produto, string? Inicio, string? Fim)
         {
-
+            
+            ViewData["PRODUTO"]     = new SelectList(_context.Produto.ToList().Where(c => c.Ativo), "titulo", "titulo");
             // VERIFY TIMER
             // VERIFY TIMER
             TIMER();
@@ -205,7 +206,7 @@ namespace sistema.Controllers
                 
             // INFORMAÇÕES POPUP 
 
-            ViewData["PRODUTO"]     = new SelectList(_context.Produto.ToList().Where(c => c.Ativo), "nome", "nome");
+            ViewData["PRODUTO"]     = new SelectList(_context.Produto.ToList().Where(c => c.Ativo), "titulo", "titulo");
             ViewData["CONSOLE"]     = new SelectList(_context.Consoles.ToList().Where(c => c.Ativo), "nome", "nome");
             return View();
         }
@@ -275,7 +276,9 @@ namespace sistema.Controllers
             {
                 return NotFound();
             }
-            ViewData["PRODUTO"]     = new SelectList(_context.Produto.ToList().Where(c => c.Ativo), "nome", "nome");
+
+            
+            ViewData["PRODUTO"]     = new SelectList(_context.Produto.ToList().Where(c => c.Ativo), "titulo", "titulo");
             ViewData["CONSOLE"]     = new SelectList(_context.Consoles.ToList().Where(c => c.Ativo), "nome", "nome");
             return View(dados);
         }

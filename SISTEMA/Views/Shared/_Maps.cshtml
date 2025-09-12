@@ -61,7 +61,7 @@
                 
                       
                               <li class="drop-menu">
-                                    <a id="ITEMMENU" href="#" class="link-flex" id="sub-btn2">
+                                    <a  href="#" class="link-flex" id="sub-btn2">
                                         <span class="sidebar-icon">
                                             <i class="fas fa-dice-d6"></i>
                                             <span class="sidebar-text">Produto</span>
@@ -95,16 +95,16 @@
                                                  </li>                                                     
                                                  <li>
                                                         <a  id="ITEMMENU" asp-area="" asp-controller="Console" asp-action="Index">
-                                                            <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
+                                                            <span class="sidebar-icon"><i class="fab fa-steam-symbol"></i></span>
                                                             <span class="sidebar-text">Console</span>
                                                         </a>
                                                  </li>  
                                                  <li>
                                                         <a  id="ITEMMENU" asp-area="" asp-controller="Requisito" asp-action="Index">
-                                                            <span class="sidebar-icon"><i class="fas fa-gamepad"></i></span>
+                                                            <span class="sidebar-icon"><i class="fas fa-heart"></i></span>
                                                             <span class="sidebar-text">Requisito</span>
                                                         </a>
-                                                 </li>                                                    
+                                                 </li>                                                     
                                             }
                                             
 
@@ -120,33 +120,34 @@
                             
             
 
+
                 <li>
                     <a  id="ITEMMENU" asp-area="" asp-controller="Torneio" asp-action="Index">
-                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-icon"><i class="fas fa-chess"></i></span>
                         <span class="sidebar-text">Torneio</span>
                     </a>
                 </li>    
 
                 <li>
                     <a  asp-area="" asp-controller="Desbloqueio" asp-action="Index">
-                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-icon"><i class="fab fa-xbox"></i></span>
                         <span class="sidebar-text">Desbloqueio</span>
                     </a>
                 </li>   
 
                 <li>
                     <a  asp-area="" asp-controller="Fliperama" asp-action="Index">
-                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-icon"><i class="fas fa-chess-board"></i></span>
                         <span class="sidebar-text">Fliperama</span>
                     </a>
                 </li>                  
                 <li>
                     <a  asp-area="" asp-controller="Retro" asp-action="Index">
-                        <span class="sidebar-icon"><i class="fas fa-coins"></i></span>
+                        <span class="sidebar-icon"><i class="fas fa-dice"></i></span>
                         <span class="sidebar-text">Retrô</span>
                     </a>
                 </li>  
-
+               
                 @if (this.User.IsInRole("Parceiro") || this.User.IsInRole("Revenda"))
                 {
                
@@ -166,7 +167,7 @@
                 
                       
                               <li class="drop-menu">
-                                    <a id="ITEMMENU" href="#" class="link-flex" id="sub-btn7">
+                                    <a href="#" class="link-flex" id="sub-btn7">
                                         <span class="sidebar-icon">
                                             <i class="fas fa-desktop"></i>
                                             <span class="sidebar-text">Ecommerce</span>

@@ -189,7 +189,7 @@ function CopyClassText() {
         window.getSelection().addRange(currentRange);
     }
 
-    document.querySelector(".copycode-button").textContent = "Copied!"
+    document.querySelector(".copycode-button").textContent = "Copiado!"
     setTimeout(()=>{
         document.querySelector(".copycode-button").textContent = "Copy Code";
     }, 5000);
@@ -200,7 +200,7 @@ continueButt.addEventListener('click', () => {
     if (nameField.value == '') return;
     username = nameField.value;
     overlayContainer.style.visibility = 'hidden';
-    document.querySelector("#myname").innerHTML = `${username} (You)`;
+    document.querySelector("#myname").innerHTML = `${username} (Jogador)`;
     socket.emit("join room", roomid, username);
 
 })
